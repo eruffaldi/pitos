@@ -1,0 +1,16 @@
+config.version = "6"
+virtualHW.version = 2
+displayName = "PitOS Testbed"
+floppy0.fileType = "file"
+usb.present = FALSE
+draw = "gdi"
+guestOS = "other"
+ide0:0.present = FALSE
+ide0:0.fileName = "c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk"
+ide1:0.present = FALSE
+ide1:0.deviceType = "atapi-cdrom"
+ide1:0.fileName = "auto detect"
+memsize = 192
+floppy0.fileName = "C:\dev\asm\pitos\bin\floppy.flp"
+
+tools.remindInstall = FALSE

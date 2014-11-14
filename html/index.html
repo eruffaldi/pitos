@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>OS Kindergarden</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0">
+  <tr>
+    <td bgcolor="#CCCC99"> 
+      <div align="right"><a href="http://www.sssup.it/%7Epit/">Home Page</a></div>
+    </td>
+  </tr>
+</table>
+<h2>Pit's OS Kindergarden</h2>
+<p>This is a small introduction to start to write an OS so get ready to play with 
+  bits, ports, registers going from system assembler up to Java. This project 
+  is made of some basic programs that explain problems in OS writing and a library, 
+  when the things become more complex. All the programs are built to be loaded 
+  from a floppy disk during the bootstrap, so you need a tool to copy the floppy 
+  image over the disk, in the distribution I've put setfloppy.pl that requires 
+  Perl &amp; Windows NT. If you want to reduce the test time, try a pc virtualizer, 
+  like VMWare or Bochs.</p>
+<h4>Programs' Structure</h4>
+<p>The basic idea of this project is to get your basic OS services directly from 
+  the CPU and the Memory, so the programs load at boottime using a little (512 
+  bytes) boot loader from the floppy disk; another approach is to use a MultiBoot 
+  program like <a href="http://www.gnu.org/software/grub">GRUB</a>, but i wanted 
+  to make all the things from scratch. The other thing that I reject is the BIOS, 
+  yes, I've tried to reduce at the minimum the usage of BIOS because of its oddness 
+  and the required switch to V86 mode, the idea is to use the BIOS before the 
+  switch to protected mode, e.g. for getting the memory layout directly from ACPI. 
+</p>
+<p>Most of examples are directly in protected mode so these are steps required 
+  from the bootstrap:</p>
+<ol>
+  <li>the <b>BIOS</b> loads the first sector of the floppy (bootsector) at segment 
+    07C0, implemented by <b>pmload</b></li>
+  <li><b>pmload</b> loads the rest of the user program from the floppy and switches 
+    to protected mode very simply, passing the control to the user protected mode 
+    program at the symbol <b>_amain</b>. Usually this code is implemented by pmsetup#.</li>
+  <li><b>pmsetup</b> adjust the protected mode data structures (mostly IDT and 
+    TR), optionally initialize the pagin system and then leave the control to 
+    the symbol <b>_cmain.</b> Here starts the user program of most examples.</li>
+  <li>the user program, written in C or C++, can work directly with the system, 
+    at ring 0 or use the kernel library to create tasks and interact easily with 
+    some peripherals. Optionally you can use a Java Virtual Machine to make the 
+    things more interesting.</li>
+</ol>
+<h4>Kernel Library</h4>
+<p>The kernel library is a set of functions created to make the things a little 
+  more interesting, basically it offers: </p>
+<ul>
+  <li>syscall system for user/system </li>
+  <li>software interrupts (for POSIX signal implementation)</li>
+  <li>tasking with very simple task scheduling, semaphores</li>
+  <li>some debugging tools (message logging and cpu exception logging)</li>
+  <li>timing services (using CMOS and the TSC register)<br>
+  </li>
+</ul>
+<h4>Documentation and Manuals</h4>
+<p>A first <a href="Usage guide">usage.html</a></p>
+<h4>Download</h4>
+<p>Get <a href="pitos.zip">here</a> the distribution.</p>
+<h4>Tools Requirements</h4>
+<p>To build and use the provided programs you need these two tools: <br>
+</p>
+<ul>
+  <li><a href="http://nasm.2y.net">NASM</a>, a great assembler used for the real 
+    mode part of the project</li>
+  <li>A GNU compiler with make, <a href="http://www.delorie.com">DJGPP</a> is 
+    enough</li>
+</ul>
+<h4>Hardware Requirements</h4>
+<p>Any x86 is good, specifically the code is totally compatible with any 386 system 
+  with the exception of the high precision timer, based over the Pentium instruction 
+  RDTSC.</p>
+ 
+<h4>Snapshots</h4>
+<a href="snapshots.html">30/01/2002</a>
+
+<h4>Links</h4>
+<p>Some useful links...</p>
+<ul>
+  <li><a href="http://www.teleport.com/%7Eacpi/acpihtml/topic245.htm">ACPI specification, 
+    for enanched bios support</a></li>
+  <li> <a href="http://www.phys.uu.nl/%7Emjanssen/">An interesting tutorial on 
+    system bootstrap </a></li>
+  <li><a href="http://www.delorie.com/">Delorie, the makers of the great DJGPP</a></li>
+  <li><a href="http://www.ctyme.com/rbrown.htm">Browsable Ralph Brown's Interrupt 
+    List</a></li>
+  <li><a href="http://bernia.disca.upv.es/lxr/http/source/">Linux Source Code 
+    Browser</a></li>
+  <li><a href="http://www.x86.org/">x86.org site, get there Intel's Manuals</a></li>
+  <li><a href="http://oslib.sourceforge.net">OSLIB, my source of inspiration</a></li>
+  <li><a href="http://www.vmware.com">VMWare great tool for OS development, take 
+    care it's commercial</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Application-Name: HelloWorld
+JAR-File-URL: HelloWorld.jar
+Main-Class: HelloWorld
+Use-Once: yes
+
+JAR-File-Size: %%JarSize%%

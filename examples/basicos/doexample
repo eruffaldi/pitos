@@ -1,0 +1,1 @@
+make $1 && cp $1 ../../bin/floppy.flp

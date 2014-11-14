@@ -1,0 +1,12 @@
+WARNING WARNING WARNING
+
+The classes in this directory are not part of the 
+CLDC specification; they were written to facilitate
+porting and testing efforts until official GUI classes
+for J2ME will be defined through the Java Community
+Process (JCP).
+
+The classes in this directory may change or be
+removed in later releases of this software.
+
+

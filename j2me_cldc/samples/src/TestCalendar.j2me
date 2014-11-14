@@ -1,0 +1,93 @@
+import java.util.*;
+import java.io.*;
+import com.sun.cldc.util.j2me.CalendarImpl;
+
+public class TestCalendar {
+  static void println(String str) {
+    for (int i = 0; i < str.length(); i++)
+      com.sun.kjava.DebugIO.putchar(str.charAt(i));
+    com.sun.kjava.DebugIO.putchar('\n');
+  }
+
+  public static void main(String[] args) {
+    Calendar cal = Calendar.getInstance();
+    Class clazz = cal.getClass();
+    println(clazz.toString());
+    println("Current time is      "+toString(cal));
+
+    TimeZone tz = TimeZone.getTimeZone("GMT");
+    cal.setTimeZone(tz);
+    println("...converted to GMT: "+toString(cal));
+
+    tz = TimeZone.getDefault();
+    cal.setTimeZone(tz);
+    cal.setTime(new Date(System.currentTimeMillis()));
+
+    println("updated to millis:   "+toString(cal));
+
+    cal.set(Calendar.YEAR, 2001);
+    println("set to 2001:         "+toString(cal));
+    cal.set(Calendar.MONTH, 6);
+    println("set to july:         "+toString(cal));
+    cal.set(Calendar.DATE, 1);
+    println("set to the 1st. day: "+toString(cal));
+    cal.set(Calendar.HOUR_OF_DAY, 13);
+    println("set to 1 pm:         "+toString(cal));
+    cal.set(Calendar.MINUTE, 30);
+    println("set to 30 mins past: "+toString(cal));
+    cal.set(Calendar.SECOND, 10);
+    println("and 10 seconds:      "+toString(cal));
+
+    cal.set(Calendar.MINUTE, 0);
+    cal.set(Calendar.SECOND, 0);
+    cal.set(Calendar.HOUR, 2);
+    cal.set(Calendar.AM_PM, Calendar.AM);
+    println("set to 2AM:          "+toString(cal));
+
+    cal.set(Calendar.AM_PM, Calendar.PM);
+    cal.set(Calendar.HOUR, 2);
+    println("set to 2PM:          "+toString(cal));
+
+    cal.set(Calendar.AM_PM, Calendar.AM);
+    cal.set(Calendar.HOUR, 12);
+    println("set to 12AM:         "+toString(cal));
+
+    cal.set(Calendar.AM_PM, Calendar.PM);
+    cal.set(Calendar.HOUR, 12);
+    println("set to 12PM:         "+toString(cal));
+
+    cal.set(Calendar.HOUR_OF_DAY, 0);
+    println("set to midnight:     "+toString(cal));
+
+    cal.set(Calendar.HOUR_OF_DAY, 12);
+    println("set to midday:       "+toString(cal));
+
+    if (cal instanceof CalendarImpl) {
+      CalendarImpl pcal = (CalendarImpl)cal;
+      try {
+	ByteArrayOutputStream baos = new ByteArrayOutputStream(100);
+	DataOutputStream dos = new DataOutputStream(baos);
+	pcal.write(dos);
+	byte[] buf = baos.toByteArray();
+
+	ByteArrayInputStream bais = new ByteArrayInputStream(buf);
+	DataInputStream dis = new DataInputStream(bais);
+	CalendarImpl pcal2 = new CalendarImpl();
+	pcal2.read(dis);
+	println("after write/read:    "+toString(pcal2));
+      } catch (IOException e) {
+	println(e.toString());
+      }
+      pcal.setMilliseconds(0);
+      println("Zero:                "+toString(pcal));
+    }
+  }
+  static String toString(Calendar cal) {
+    int h = cal.get(Calendar.HOUR);
+    String hour = h == 0? " (00" : (h < 10? (" (0"+h) : (" ("+h));
+    int m = cal.get(Calendar.MINUTE);
+    String min = m == 0? ":00" : (m < 10? (":0"+m) : (":"+m));
+    int am_pm = cal.get(Calendar.AM_PM);
+    return cal.toString()+hour+min+" "+(am_pm == Calendar.PM? "pm)" : "am)");
+  }
+}

@@ -1,0 +1,1356 @@
+Feb 02 11:32:39: VMX|Log for VMware Workstation pid=1512 version=unreleased build=build-1455 option=Release.e.x.p
+Feb 02 11:32:39: VMX|Command line: "vmware" "-T" "228"
+Feb 02 11:32:39: VMX|(VMX) DeclareThread UI module=6 source=0x20000
+Feb 02 11:32:39: VMX|VUI: A new gui connected.
+Feb 02 11:32:39: VMX|(VMX) DeclareThread MKS module=136 source=0x80000
+Feb 02 11:32:39: UI|Log for VMware Workstation pid=1512 version=unreleased build=build-1455 option=Release.e.x.p
+Feb 02 11:32:39: MKS|Log for VMware Workstation pid=1512 version=unreleased build=build-1455 option=Release.e.x.p
+Feb 02 11:32:39: VMX|DICT: Set ConfigVersion to 6
+Feb 02 11:32:39: VMX|DICT: Set HWVersion to 2
+Feb 02 11:32:39: VMX|VMX: changing state 0 from 0 to 1870
+Feb 02 11:32:39: VMX|VMX: changing state 1 from 0 to 1873
+Feb 02 11:32:39: VMX|VMX: changing state 2 from 0 to 1877
+Feb 02 11:32:39: VMX|CPUID numEntries=1 AuthenticAMD
+Feb 02 11:32:39: VMX|CPUID version=0x642 features=0x183f9ff ebx=0x0
+Feb 02 11:32:39: VMX|CPU.cpuFeatures (AMD) = 0xc1c7f9ff
+Feb 02 11:32:39: VMX|CPU.cpuFeatures = 0x5a02
+Feb 02 11:32:39: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:32:39: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:32:39: VMX|License HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.3.0
+Feb 02 11:32:39: VMX|   Cpt = COPYRIGHT (c) VMware, Inc. 1999-2001
+Feb 02 11:32:39: VMX|   EndField = Hash
+Feb 02 11:32:39: VMX|   Epoch = 2001-11-2
+Feb 02 11:32:39: VMX|   LicenseType = User
+Feb 02 11:32:39: VMX|   LicenseVersion = 3.0
+Feb 02 11:32:39: VMX|   ProductID = VMware Workstation for Win32
+Feb 02 11:32:39: VMX|   StartFields = Cpt, ProductID, LicenseVersion, LicenseType, Epoch
+Feb 02 11:32:39: VMX|   Fields = Cpt, ProductID, LicenseVersion, LicenseType, Epoch
+Feb 02 11:32:39: VMX|License HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0
+Feb 02 11:32:39: VMX|   Cpt = COPYRIGHT (c) VMware, Inc. 1999-2001
+Feb 02 11:32:39: VMX|   EndField = Hash
+Feb 02 11:32:39: VMX|   Epoch = 2001-11-2
+Feb 02 11:32:39: VMX|   LicenseType = User
+Feb 02 11:32:39: VMX|   LicenseVersion = 3.0
+Feb 02 11:32:39: VMX|   ProductID = VMware Workstation for Win32
+Feb 02 11:32:39: VMX|   StartFields = Cpt, ProductID, LicenseVersion, LicenseType, Epoch
+Feb 02 11:32:39: VMX|   Serial = 00M00-0948M-0RHHH-12T68
+Feb 02 11:32:39: VMX|   Name = aa
+Feb 02 11:32:39: VMX|   CompanyName = aa
+Feb 02 11:32:39: VMX|   Fields = Cpt, ProductID, LicenseVersion, LicenseType, Epoch
+Feb 02 11:32:39: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:32:39: UI|UI: SetDisplayParams(view 0x3C02A4, frame 0xC20148)
+Feb 02 11:32:39: UI|UI: end CVmxApp::LateInitInstance()
+Feb 02 11:32:44: VMX|changing directory to c:\dev\asm\pitos\vmware\pitos testbed\.
+Feb 02 11:32:44: VMX|Config file: c:\dev\asm\pitos\vmware\pitos testbed\pitos testbed.vmx
+Feb 02 11:32:44: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:32:44: VMX|VMX: changing state 2 from 1877 to 1878
+Feb 02 11:32:44: VMX|LOG failed to unlink log file 'g:\temp\vmware-power-1512.log': Impossibile accedere al file. Il file è utilizzato da un altro processo
+Feb 02 11:32:44: UI|LOG failed to unlink log file 'g:\temp\vmware-power-1512.log': Impossibile accedere al file. Il file è utilizzato da un altro processo
+Feb 02 11:32:44: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:32:44: UI|VMX(UI): changing state 2 from 1877 to 1878, nesting 0
+Feb 02 11:32:44: VMX|VMX: changing state 2 from 1878 to 1878
+Feb 02 11:32:44: UI|Config file: c:\dev\asm\pitos\vmware\pitos testbed\pitos testbed.vmx
+Feb 02 11:32:44: UI|VMX(UI): changing state 2 from 1878 to 1878, nesting 0
+Feb 02 11:32:45: VMX|PowerOn
+Feb 02 11:32:45: VMX|VMX: changing state 0 from 1870 to 1871
+Feb 02 11:32:45: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Feb 02 11:32:45: VMX|HOST Windows version 5.0, build 2195, platform 2, "Service Pack 2"
+Feb 02 11:32:45: VMX|DICT --- USER PREFERENCES
+Feb 02 11:32:45: VMX|DICT        prefvmx.mru.config = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmx;C:\DOCUMENTI\My Virtual Machines\Windows 2000 Professional\Windows 2000 Professional.vmx;C:\DOCUMENTI\My Virtual Machines\Linux (4)\Linux (4).vmx;C:\DOCUMENTI\My Virtual Machines\Linux\Linux.vmx;
+Feb 02 11:32:45: VMX|DICT   hint.gui.powerOffButton = FALSE
+Feb 02 11:32:45: VMX|DICT     prefvmx.mru.suspended = 
+Feb 02 11:32:45: VMX|DICT     hint.tools.toolsImage = FALSE
+Feb 02 11:32:45: VMX|DICT       hint.mks.fullscreen = FALSE
+Feb 02 11:32:45: VMX|DICT --- USER DEFAULTS
+Feb 02 11:32:45: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:32:45: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:32:45: VMX|DICT --- COMMAND LINE
+Feb 02 11:32:45: VMX|DICT             gui.available = TRUE
+Feb 02 11:32:45: VMX|DICT --- CONFIGURATION
+Feb 02 11:32:45: VMX|DICT            config.version = 6
+Feb 02 11:32:45: VMX|DICT         virtualHW.version = 2
+Feb 02 11:32:45: VMX|DICT               displayName = PitOS Testbed
+Feb 02 11:32:45: VMX|DICT          floppy0.fileType = file
+Feb 02 11:32:45: VMX|DICT               usb.present = FALSE
+Feb 02 11:32:45: VMX|DICT                      draw = gdi
+Feb 02 11:32:45: VMX|DICT                   guestOS = other
+Feb 02 11:32:45: VMX|DICT            ide0:0.present = FALSE
+Feb 02 11:32:45: VMX|DICT           ide0:0.fileName = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk
+Feb 02 11:32:45: VMX|DICT            ide1:0.present = FALSE
+Feb 02 11:32:45: VMX|DICT         ide1:0.deviceType = atapi-cdrom
+Feb 02 11:32:45: VMX|DICT           ide1:0.fileName = auto detect
+Feb 02 11:32:45: VMX|DICT                   memsize = 192
+Feb 02 11:32:45: VMX|DICT          floppy0.fileName = C:\dev\asm\pitos\bin\floppy.flp
+Feb 02 11:32:45: VMX|DICT       tools.remindInstall = FALSE
+Feb 02 11:32:45: VMX|DICT --- USER DEFAULTS
+Feb 02 11:32:45: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:32:45: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:32:45: VMX|DICT --- GLOBAL SETTINGS
+Feb 02 11:32:45: VMX|MStat: Creating Stat vm.uptime
+Feb 02 11:32:45: VMX|GuestOSId = 0x500a 
+Feb 02 11:32:45: VMX|GetSystemTimeAdjustment returned unknown clockInterval 100144
+Feb 02 11:32:45: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:32:45: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:32:45: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:32:45: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:32:45: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:32:45: VMX|minReservedMemInMB=32 maxReservedMemInMB=384 defaultReservedMemInMB=384
+totOverheadInMB=16
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 0
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 1
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 2
+Feb 02 11:32:45: VMX|Mhz estimate 807
+Feb 02 11:32:45: VMX|MHZEstimate 807
+Feb 02 11:32:45: VMX|MemHostDoMapAWE: mapSize 438272 nodeSize 438272
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 107 pages (107)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 107 pages @ 0xe510000
+Feb 02 11:32:45: VMX|MemHostDoMapAWE: addr=0xe510000 numPages=0x6b
+Feb 02 11:32:45: VMX|VirtualProtect MapProtectMem(0xe510000,0x6b000) returns 0x1e7
+Feb 02 11:32:45: VMX|Error write protecting monitor.
+Feb 02 11:32:45: VMX|MStat: Creating Stat vm.heartbeat
+Feb 02 11:32:45: VMX|TOOLS INSTALL initializing state to IDLE on power on.
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 8 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 8 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 8 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 8 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 16 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 16 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 16 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 16 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 200 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 320 by 240 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 400 by 300 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 480 by 360 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 512 by 384 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 400 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 32 rr 75
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 32 rr 60
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 32 rr 70
+Feb 02 11:32:45: MKS|Adding display mode: 1024 by 768 depth 32 rr 72
+Feb 02 11:32:45: MKS|Adding display mode: 640 by 480 depth 4 rr 1
+Feb 02 11:32:45: MKS|Dropping display mode <4, 640, 480, 1>
+Feb 02 11:32:45: MKS|Adding display mode: 800 by 600 depth 4 rr 1
+Feb 02 11:32:45: MKS|Dropping display mode <4, 800, 600, 1>
+Feb 02 11:32:45: MKS|GDI Display modes:
+Feb 02 11:32:45: MKS|  320 by 200 depth 8 rr 60 bp 320
+Feb 02 11:32:45: MKS|  320 by 200 depth 8 rr 70 bp 320
+Feb 02 11:32:45: MKS|  320 by 200 depth 8 rr 72 bp 320
+Feb 02 11:32:45: MKS|  320 by 200 depth 8 rr 75 bp 320
+Feb 02 11:32:45: MKS|  320 by 240 depth 8 rr 60 bp 320
+Feb 02 11:32:45: MKS|  320 by 240 depth 8 rr 70 bp 320
+Feb 02 11:32:45: MKS|  320 by 240 depth 8 rr 72 bp 320
+Feb 02 11:32:45: MKS|  320 by 240 depth 8 rr 75 bp 320
+Feb 02 11:32:45: MKS|  400 by 300 depth 8 rr 60 bp 400
+Feb 02 11:32:45: MKS|  400 by 300 depth 8 rr 70 bp 400
+Feb 02 11:32:45: MKS|  400 by 300 depth 8 rr 72 bp 400
+Feb 02 11:32:45: MKS|  400 by 300 depth 8 rr 75 bp 400
+Feb 02 11:32:45: MKS|  480 by 360 depth 8 rr 60 bp 480
+Feb 02 11:32:45: MKS|  480 by 360 depth 8 rr 70 bp 480
+Feb 02 11:32:45: MKS|  480 by 360 depth 8 rr 72 bp 480
+Feb 02 11:32:45: MKS|  480 by 360 depth 8 rr 75 bp 480
+Feb 02 11:32:45: MKS|  512 by 384 depth 8 rr 60 bp 512
+Feb 02 11:32:45: MKS|  512 by 384 depth 8 rr 70 bp 512
+Feb 02 11:32:45: MKS|  512 by 384 depth 8 rr 72 bp 512
+Feb 02 11:32:45: MKS|  512 by 384 depth 8 rr 75 bp 512
+Feb 02 11:32:45: MKS|  640 by 400 depth 8 rr 60 bp 640
+Feb 02 11:32:45: MKS|  640 by 400 depth 8 rr 70 bp 640
+Feb 02 11:32:45: MKS|  640 by 400 depth 8 rr 72 bp 640
+Feb 02 11:32:45: MKS|  640 by 400 depth 8 rr 75 bp 640
+Feb 02 11:32:45: MKS|  640 by 480 depth 8 rr 60 bp 640
+Feb 02 11:32:45: MKS|  640 by 480 depth 8 rr 70 bp 640
+Feb 02 11:32:45: MKS|  640 by 480 depth 8 rr 72 bp 640
+Feb 02 11:32:45: MKS|  640 by 480 depth 8 rr 75 bp 640
+Feb 02 11:32:45: MKS|  800 by 600 depth 8 rr 60 bp 800
+Feb 02 11:32:45: MKS|  800 by 600 depth 8 rr 70 bp 800
+Feb 02 11:32:45: MKS|  800 by 600 depth 8 rr 72 bp 800
+Feb 02 11:32:45: MKS|  800 by 600 depth 8 rr 75 bp 800
+Feb 02 11:32:45: MKS|  1024 by 768 depth 8 rr 60 bp 1024
+Feb 02 11:32:45: MKS|  1024 by 768 depth 8 rr 70 bp 1024
+Feb 02 11:32:45: MKS|  1024 by 768 depth 8 rr 72 bp 1024
+Feb 02 11:32:45: MKS|  320 by 200 depth 16 rr 60 bp 640
+Feb 02 11:32:45: MKS|  320 by 200 depth 16 rr 70 bp 640
+Feb 02 11:32:45: MKS|  320 by 200 depth 16 rr 72 bp 640
+Feb 02 11:32:45: MKS|  320 by 200 depth 16 rr 75 bp 640
+Feb 02 11:32:45: MKS|  320 by 240 depth 16 rr 60 bp 640
+Feb 02 11:32:45: MKS|  320 by 240 depth 16 rr 70 bp 640
+Feb 02 11:32:45: MKS|  320 by 240 depth 16 rr 72 bp 640
+Feb 02 11:32:45: MKS|  320 by 240 depth 16 rr 75 bp 640
+Feb 02 11:32:45: MKS|  400 by 300 depth 16 rr 60 bp 800
+Feb 02 11:32:45: MKS|  400 by 300 depth 16 rr 70 bp 800
+Feb 02 11:32:45: MKS|  400 by 300 depth 16 rr 72 bp 800
+Feb 02 11:32:45: MKS|  400 by 300 depth 16 rr 75 bp 800
+Feb 02 11:32:45: MKS|  480 by 360 depth 16 rr 60 bp 960
+Feb 02 11:32:45: MKS|  480 by 360 depth 16 rr 70 bp 960
+Feb 02 11:32:45: MKS|  480 by 360 depth 16 rr 72 bp 960
+Feb 02 11:32:45: MKS|  480 by 360 depth 16 rr 75 bp 960
+Feb 02 11:32:45: MKS|  512 by 384 depth 16 rr 60 bp 1024
+Feb 02 11:32:45: MKS|  512 by 384 depth 16 rr 70 bp 1024
+Feb 02 11:32:45: MKS|  512 by 384 depth 16 rr 72 bp 1024
+Feb 02 11:32:45: MKS|  512 by 384 depth 16 rr 75 bp 1024
+Feb 02 11:32:45: MKS|  640 by 400 depth 16 rr 60 bp 1280
+Feb 02 11:32:45: MKS|  640 by 400 depth 16 rr 70 bp 1280
+Feb 02 11:32:45: MKS|  640 by 400 depth 16 rr 72 bp 1280
+Feb 02 11:32:45: MKS|  640 by 400 depth 16 rr 75 bp 1280
+Feb 02 11:32:45: MKS|  640 by 480 depth 16 rr 60 bp 1280
+Feb 02 11:32:45: MKS|  640 by 480 depth 16 rr 70 bp 1280
+Feb 02 11:32:45: MKS|  640 by 480 depth 16 rr 72 bp 1280
+Feb 02 11:32:45: MKS|  640 by 480 depth 16 rr 75 bp 1280
+Feb 02 11:32:45: MKS|  800 by 600 depth 16 rr 60 bp 1600
+Feb 02 11:32:45: MKS|  800 by 600 depth 16 rr 70 bp 1600
+Feb 02 11:32:45: MKS|  800 by 600 depth 16 rr 72 bp 1600
+Feb 02 11:32:45: MKS|  800 by 600 depth 16 rr 75 bp 1600
+Feb 02 11:32:45: MKS|  1024 by 768 depth 16 rr 60 bp 2048
+Feb 02 11:32:45: MKS|  1024 by 768 depth 16 rr 70 bp 2048
+Feb 02 11:32:45: MKS|  1024 by 768 depth 16 rr 72 bp 2048
+Feb 02 11:32:45: MKS|  320 by 200 depth 32 rr 60 bp 1280
+Feb 02 11:32:45: MKS|  320 by 200 depth 32 rr 70 bp 1280
+Feb 02 11:32:45: MKS|  320 by 200 depth 32 rr 72 bp 1280
+Feb 02 11:32:45: MKS|  320 by 200 depth 32 rr 75 bp 1280
+Feb 02 11:32:45: MKS|  320 by 240 depth 32 rr 60 bp 1280
+Feb 02 11:32:45: MKS|  320 by 240 depth 32 rr 70 bp 1280
+Feb 02 11:32:45: MKS|  320 by 240 depth 32 rr 72 bp 1280
+Feb 02 11:32:45: MKS|  320 by 240 depth 32 rr 75 bp 1280
+Feb 02 11:32:45: MKS|  400 by 300 depth 32 rr 60 bp 1600
+Feb 02 11:32:45: MKS|  400 by 300 depth 32 rr 70 bp 1600
+Feb 02 11:32:45: MKS|  400 by 300 depth 32 rr 72 bp 1600
+Feb 02 11:32:45: MKS|  400 by 300 depth 32 rr 75 bp 1600
+Feb 02 11:32:45: MKS|  480 by 360 depth 32 rr 60 bp 1920
+Feb 02 11:32:45: MKS|  480 by 360 depth 32 rr 70 bp 1920
+Feb 02 11:32:45: MKS|  480 by 360 depth 32 rr 72 bp 1920
+Feb 02 11:32:45: MKS|  480 by 360 depth 32 rr 75 bp 1920
+Feb 02 11:32:45: MKS|  512 by 384 depth 32 rr 60 bp 2048
+Feb 02 11:32:45: MKS|  512 by 384 depth 32 rr 70 bp 2048
+Feb 02 11:32:45: MKS|  512 by 384 depth 32 rr 72 bp 2048
+Feb 02 11:32:45: MKS|  512 by 384 depth 32 rr 75 bp 2048
+Feb 02 11:32:45: MKS|  640 by 400 depth 32 rr 60 bp 2560
+Feb 02 11:32:45: MKS|  640 by 400 depth 32 rr 70 bp 2560
+Feb 02 11:32:45: MKS|  640 by 400 depth 32 rr 72 bp 2560
+Feb 02 11:32:45: MKS|  640 by 400 depth 32 rr 75 bp 2560
+Feb 02 11:32:45: MKS|  640 by 480 depth 32 rr 60 bp 2560
+Feb 02 11:32:45: MKS|  640 by 480 depth 32 rr 70 bp 2560
+Feb 02 11:32:45: MKS|  640 by 480 depth 32 rr 72 bp 2560
+Feb 02 11:32:45: MKS|  640 by 480 depth 32 rr 75 bp 2560
+Feb 02 11:32:45: MKS|  800 by 600 depth 32 rr 60 bp 3200
+Feb 02 11:32:45: MKS|  800 by 600 depth 32 rr 70 bp 3200
+Feb 02 11:32:45: MKS|  800 by 600 depth 32 rr 72 bp 3200
+Feb 02 11:32:45: MKS|  800 by 600 depth 32 rr 75 bp 3200
+Feb 02 11:32:45: MKS|  1024 by 768 depth 32 rr 60 bp 4096
+Feb 02 11:32:45: MKS|  1024 by 768 depth 32 rr 70 bp 4096
+Feb 02 11:32:45: MKS|  1024 by 768 depth 32 rr 72 bp 4096
+Feb 02 11:32:45: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 3
+Feb 02 11:32:45: VMX|Host_SetFastClockRate: rate=0
+Feb 02 11:32:45: VMX|Using unified VGA.
+Feb 02 11:32:45: VMX|SVGA frame buffer address 0x7efc0000
+Feb 02 11:32:45: MKS|SVGA changing width from 2364 to 1024
+Feb 02 11:32:45: MKS|SVGA changing height from 1773 to 768
+Feb 02 11:32:45: MKS|SVGA phys sizes: 1024x768x32 bpl 4096 offset 0 fb 0x00300000/0x00300000
+Feb 02 11:32:45: VMX|SVGA frame buffer size 0x00300000/0x00300000/0x00300000
+Feb 02 11:32:45: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:32:45: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:32:45: VMX|VNET: receive cluster size is 1, threshold is 150
+Feb 02 11:32:45: VMX|VNET: send cluster threshold is 150, size = 5 recalcInterval is 2 ticks
+Feb 02 11:32:45: VMX|Powering on VNet Notification
+Feb 02 11:32:45: VMX|0:0:0: vendor 0x0 device 0x0 class 0x0 sub-class 0x0 intLine 0 vector 48
+Feb 02 11:32:45: VMX|1:0:0: vendor 0x14af device 0x7109 class 0x1f sub-class 0x0 intLine 0 vector 48
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:32:45: VMX|PHYSMEM: DynAlloc 0: 0xffffffff + 768 pages
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:32:45: VMX|PHYSMEM: DynAlloc 1: 0xffffffff + 64 pages
+Feb 02 11:32:45: VMX|(VMX) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:32:45: *NULL*(SELF) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:32:45: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:32:45: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:32:45: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:32:45: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:32:45: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:32:45: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:32:45: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:32:45: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:32:45: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:32:45: Floppy|FloppyImage: Locking of Images not yet supported
+Feb 02 11:32:45: VMX|VMX_PowerOn: ModuleTable_PowerOn = 1
+Feb 02 11:32:45: VMX|VMX_PowerOn: Barrier_Last = 1
+Feb 02 11:32:45: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 256 pages (363)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 256 pages @ 0xefc0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: 256 pages @ 0xefc0000
+Feb 02 11:32:45: VMX|Monitor initalized: Release.e.x.p$Name: build-1455 $ (gcc)
+Feb 02 11:32:45: VMX|Monitor controlFlag: 0x2000900:0x20
+Feb 02 11:32:45: VMX|cpuFeatures = 0x5a02
+Feb 02 11:32:45: VMX|MMU_Init: Release.e.x.p$Name: build-1455 $ STD.
+Feb 02 11:32:45: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 256 pages (619)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 256 pages @ 0xf0c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: 256 pages @ 0xf0c0000
+Feb 02 11:32:45: VMX|FPU_Init  cr0=0x8001003b
+Feb 02 11:32:45: VMX|VMX: changing state 0 from 1871 to 1872
+Feb 02 11:32:45: UI|VMX(UI): changing state 0 from 1871 to 1872, nesting 0
+Feb 02 11:32:45: MKS|MKSHostResizeWindow got pathetically tiny size (9,1).  Ignoring.
+Feb 02 11:32:45: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 256 pages (875)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 256 pages @ 0xf2c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: 256 pages @ 0xf2c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 256 pages (1131)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 256 pages @ 0xf3c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: 256 pages @ 0xf3c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 256 pages (1387)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 256 pages @ 0xf4c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: 256 pages @ 0xf4c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:32:45: VMX|MemHostAllocPages: Allocating 256 pages (1643)
+Feb 02 11:32:45: VMX|MemHostMapPages: Mapped 256 pages @ 0xf5c0000
+Feb 02 11:32:45: VMX|MemAllocAnonPage: 256 pages @ 0xf5c0000
+Feb 02 11:32:45: VMX|Booting virtual machine
+Feb 02 11:32:45: VMX|
+Feb 02 11:32:45: VMX|Host_SetFastClockRate: rate=36
+Feb 02 11:32:45: VMX|SVGA: Registering MemSpace at 0xfd000000(0x7efc0000) and 0xfc000000(0x7ffc0000)
+Feb 02 11:32:45: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:32:45: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:32:45: VMX|OPROM: allocating 8000 bytes for .vbios
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:32:45: VMX|PHYSMEM: DynAlloc 2: 0xfe800 + 8 pages
+Feb 02 11:32:45: VMX|OPROM: loading .vbios
+Feb 02 11:32:45: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:32:45: VMX|OPROM: smashing .vbios
+Feb 02 11:32:45: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:32:45: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:32:45: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:32:45: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:32:45: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:32:45: VMX|OPROM: loading .vbios
+Feb 02 11:32:45: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:32:45: VMX|OPROM: smashing .vbios
+Feb 02 11:32:45: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:32:45: VMX|SVGA: Registering IOSpace at 0x1060 (0x0000)
+Feb 02 11:32:45: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:32:45: VMX|VBE call 0x4f02 bx 0x0007 cx 0x03d5 es 0x0078 di 0x0000
+Feb 02 11:32:45: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:32:45: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:32:45: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:32:46: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:32:46: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:32:46: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:32:46: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:32:46: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:32:46: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:32:46: VMX|VBE: VGA Mode switch to 7(7)
+Feb 02 11:32:46: VMX|VBE call 0x4f02 bx 0x0003 cx 0x03c2 es 0x0078 di 0x0000
+Feb 02 11:32:46: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:32:46: VMX|VBE call 0x4f02 bx 0x0012 cx 0x03b5 es 0x01c1 di 0x7b96
+Feb 02 11:32:46: VMX|VBE: VGA Mode switch to 18(18)
+Feb 02 11:32:46: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:32:47: VMX|VBE call 0x4f00 bx 0x0b98 cx 0x0200 es 0x7f80 di 0x005a
+Feb 02 11:32:47: VMX|VBE: DATA OFFSET from VGA BIOS = 0xb98, size=512
+Feb 02 11:32:47: VMX|VBE: VESA VideoModePtr = 0xc0000bc2
+Feb 02 11:32:51: VMX|VBE call 0x4f02 bx 0x0003 cx 0x0202 es 0x92db di 0x3807
+Feb 02 11:32:51: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:32:51: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:32:52: VMX|Host_SetFastClockRate: rate=40
+Feb 02 11:32:55: UI|Msg_Hint hint.gui.powerOffButton (not shown)
+Feb 02 11:32:55: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:32:55: VMX|OPROM: ignoring unmap of .vbios: already unmapped
+Feb 02 11:32:55: VMX|OPROM: OpromPowerOff
+Feb 02 11:32:55: Floppy|FloppyImage: Unlocking of Images not yet supported
+Feb 02 11:32:55: VMX|AIOPowerOff Floppy
+Feb 02 11:32:55: Floppy|AIOSlave: Floppy exiting cleanly.
+Feb 02 11:32:55: Floppy|IPC_exit: disconnecting all threads
+Feb 02 11:32:55: Floppy|Floppy IPC closed the connection with thread VMX (0x02396ee0)
+Feb 02 11:32:55: Floppy|Floppy IPC The "VMX" thread exited cleanly.
+Feb 02 11:32:55: VMX|VMX IPC closed the connection with thread Floppy (0x00134970)
+Feb 02 11:32:55: VMX|MemHostDoUnmapAWE: 107 pages @ 0xe510000
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 107 pages @ 0xe510000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 107 pages (1536)
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xefc0000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 256 pages (1280)
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf0c0000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 256 pages (1024)
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf2c0000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 256 pages (768)
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf3c0000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 256 pages (512)
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf4c0000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 256 pages (256)
+Feb 02 11:32:55: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf5c0000
+Feb 02 11:32:55: VMX|MemHostFreePages: Freeing 256 pages (0)
+Feb 02 11:32:55: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:32:55: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:32:55: VMX|VMX: changing state 0 from 1872 to 1870
+Feb 02 11:32:55: UI|VMX(UI): changing state 0 from 1872 to 1870, nesting 0
+Feb 02 11:33:02: VMX|PowerOn
+Feb 02 11:33:02: VMX|VMX: changing state 0 from 1870 to 1871
+Feb 02 11:33:02: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Feb 02 11:33:02: VMX|HOST Windows version 5.0, build 2195, platform 2, "Service Pack 2"
+Feb 02 11:33:02: VMX|DICT --- USER PREFERENCES
+Feb 02 11:33:02: VMX|DICT        prefvmx.mru.config = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmx;C:\DOCUMENTI\My Virtual Machines\Windows 2000 Professional\Windows 2000 Professional.vmx;C:\DOCUMENTI\My Virtual Machines\Linux (4)\Linux (4).vmx;C:\DOCUMENTI\My Virtual Machines\Linux\Linux.vmx;
+Feb 02 11:33:02: VMX|DICT   hint.gui.powerOffButton = FALSE
+Feb 02 11:33:02: VMX|DICT     prefvmx.mru.suspended = 
+Feb 02 11:33:02: VMX|DICT     hint.tools.toolsImage = FALSE
+Feb 02 11:33:02: VMX|DICT       hint.mks.fullscreen = FALSE
+Feb 02 11:33:02: VMX|DICT --- USER DEFAULTS
+Feb 02 11:33:02: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:33:02: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:33:02: VMX|DICT --- COMMAND LINE
+Feb 02 11:33:02: VMX|DICT             gui.available = TRUE
+Feb 02 11:33:02: VMX|DICT --- CONFIGURATION
+Feb 02 11:33:02: VMX|DICT            config.version = 6
+Feb 02 11:33:02: VMX|DICT         virtualHW.version = 2
+Feb 02 11:33:02: VMX|DICT               displayName = PitOS Testbed
+Feb 02 11:33:02: VMX|DICT          floppy0.fileType = file
+Feb 02 11:33:02: VMX|DICT               usb.present = FALSE
+Feb 02 11:33:02: VMX|DICT                      draw = gdi
+Feb 02 11:33:02: VMX|DICT                   guestOS = other
+Feb 02 11:33:02: VMX|DICT            ide0:0.present = FALSE
+Feb 02 11:33:02: VMX|DICT           ide0:0.fileName = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk
+Feb 02 11:33:02: VMX|DICT            ide1:0.present = FALSE
+Feb 02 11:33:02: VMX|DICT         ide1:0.deviceType = atapi-cdrom
+Feb 02 11:33:02: VMX|DICT           ide1:0.fileName = auto detect
+Feb 02 11:33:02: VMX|DICT                   memsize = 192
+Feb 02 11:33:02: VMX|DICT          floppy0.fileName = C:\dev\asm\pitos\bin\floppy.flp
+Feb 02 11:33:02: VMX|DICT       tools.remindInstall = FALSE
+Feb 02 11:33:02: VMX|DICT --- USER DEFAULTS
+Feb 02 11:33:02: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:33:02: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:33:02: VMX|DICT --- GLOBAL SETTINGS
+Feb 02 11:33:02: VMX|MStat: Creating Stat vm.uptime
+Feb 02 11:33:02: VMX|GuestOSId = 0x500a 
+Feb 02 11:33:02: VMX|GetSystemTimeAdjustment returned unknown clockInterval 100144
+Feb 02 11:33:02: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:33:03: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:33:03: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:33:03: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:33:03: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:33:03: VMX|minReservedMemInMB=32 maxReservedMemInMB=384 defaultReservedMemInMB=384
+totOverheadInMB=16
+Feb 02 11:33:03: VMX|PHYSMEM: TryAddRegion 0
+Feb 02 11:33:03: VMX|PHYSMEM: TryAddRegion 1
+Feb 02 11:33:03: VMX|PHYSMEM: TryAddRegion 2
+Feb 02 11:33:03: VMX|Mhz estimate 807
+Feb 02 11:33:03: VMX|MHZEstimate 807
+Feb 02 11:33:03: VMX|MemHostDoMapAWE: mapSize 438272 nodeSize 438272
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 107 pages (107)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 107 pages @ 0xe4d0000
+Feb 02 11:33:03: VMX|MemHostDoMapAWE: addr=0xe4d0000 numPages=0x6b
+Feb 02 11:33:03: VMX|VirtualProtect MapProtectMem(0xe4d0000,0x6b000) returns 0x1e7
+Feb 02 11:33:03: VMX|Error write protecting monitor.
+Feb 02 11:33:03: VMX|MStat: Creating Stat vm.heartbeat
+Feb 02 11:33:03: VMX|TOOLS INSTALL initializing state to IDLE on power on.
+Feb 02 11:33:03: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:33:03: VMX|PHYSMEM: TryAddRegion 3
+Feb 02 11:33:03: VMX|Host_SetFastClockRate: rate=0
+Feb 02 11:33:03: VMX|Using unified VGA.
+Feb 02 11:33:03: VMX|SVGA frame buffer address 0x7efc0000
+Feb 02 11:33:03: MKS|SVGA changing width from 2364 to 1024
+Feb 02 11:33:03: MKS|SVGA changing height from 1773 to 768
+Feb 02 11:33:03: MKS|SVGA phys sizes: 1024x768x32 bpl 4096 offset 0 fb 0x00300000/0x00300000
+Feb 02 11:33:03: VMX|SVGA frame buffer size 0x00300000/0x00300000/0x00300000
+Feb 02 11:33:03: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:33:03: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:33:03: VMX|VNET: receive cluster size is 1, threshold is 150
+Feb 02 11:33:03: VMX|VNET: send cluster threshold is 150, size = 5 recalcInterval is 2 ticks
+Feb 02 11:33:03: VMX|Powering on VNet Notification
+Feb 02 11:33:03: VMX|0:0:0: vendor 0x0 device 0x0 class 0x0 sub-class 0x0 intLine 0 vector 48
+Feb 02 11:33:03: VMX|1:0:0: vendor 0x14af device 0x7109 class 0x1f sub-class 0x0 intLine 0 vector 48
+Feb 02 11:33:03: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:33:03: VMX|PHYSMEM: DynAlloc 0: 0xffffffff + 768 pages
+Feb 02 11:33:03: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:33:03: VMX|PHYSMEM: DynAlloc 1: 0xffffffff + 64 pages
+Feb 02 11:33:03: VMX|(VMX) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:33:03: *NULL*(SELF) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:33:03: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:33:03: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:33:03: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:33:03: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:33:03: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:33:03: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:33:03: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:33:03: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:33:03: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:33:03: Floppy|FloppyImage: Locking of Images not yet supported
+Feb 02 11:33:03: VMX|VMX_PowerOn: ModuleTable_PowerOn = 1
+Feb 02 11:33:03: VMX|VMX_PowerOn: Barrier_Last = 1
+Feb 02 11:33:03: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 256 pages (363)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 256 pages @ 0xefc0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: 256 pages @ 0xefc0000
+Feb 02 11:33:03: VMX|Monitor initalized: Release.e.x.p$Name: build-1455 $ (gcc)
+Feb 02 11:33:03: VMX|Monitor controlFlag: 0x2000900:0x20
+Feb 02 11:33:03: VMX|cpuFeatures = 0x5a02
+Feb 02 11:33:03: VMX|MMU_Init: Release.e.x.p$Name: build-1455 $ STD.
+Feb 02 11:33:03: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 256 pages (619)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 256 pages @ 0xf0c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: 256 pages @ 0xf0c0000
+Feb 02 11:33:03: VMX|FPU_Init  cr0=0x8001003b
+Feb 02 11:33:03: VMX|Feb 02 11:33:03: MKS|MKSHostResizeWindow got pathetically tiny size (9,1).  Ignoring.
+VMX: changing state 0 from 1871 to 1872
+Feb 02 11:33:03: UI|VMX(UI): changing state 0 from 1871 to 1872, nesting 0
+Feb 02 11:33:03: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 256 pages (875)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 256 pages @ 0xf2c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: 256 pages @ 0xf2c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 256 pages (1131)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 256 pages @ 0xf3c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: 256 pages @ 0xf3c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 256 pages (1387)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 256 pages @ 0xf4c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: 256 pages @ 0xf4c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:03: VMX|MemHostAllocPages: Allocating 256 pages (1643)
+Feb 02 11:33:03: VMX|MemHostMapPages: Mapped 256 pages @ 0xf5c0000
+Feb 02 11:33:03: VMX|MemAllocAnonPage: 256 pages @ 0xf5c0000
+Feb 02 11:33:03: VMX|Booting virtual machine
+Feb 02 11:33:03: VMX|
+Feb 02 11:33:03: VMX|Host_SetFastClockRate: rate=36
+Feb 02 11:33:03: UI|Msg_Hint hint.gui.powerOffButton (not shown)
+Feb 02 11:33:03: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:33:03: VMX|OPROM: ignoring unmap of .vbios: already unmapped
+Feb 02 11:33:03: VMX|OPROM: OpromPowerOff
+Feb 02 11:33:03: Floppy|FloppyImage: Unlocking of Images not yet supported
+Feb 02 11:33:03: VMX|AIOPowerOff Floppy
+Feb 02 11:33:03: Floppy|AIOSlave: Floppy exiting cleanly.
+Feb 02 11:33:03: Floppy|IPC_exit: disconnecting all threads
+Feb 02 11:33:03: Floppy|Floppy IPC closed the connection with thread VMX (0x02396ee0)
+Feb 02 11:33:03: Floppy|Floppy IPC The "VMX" thread exited cleanly.
+Feb 02 11:33:03: VMX|VMX IPC closed the connection with thread Floppy (0x00134970)
+Feb 02 11:33:03: VMX|MemHostDoUnmapAWE: 107 pages @ 0xe4d0000
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 107 pages @ 0xe4d0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 107 pages (1536)
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xefc0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 256 pages (1280)
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf0c0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 256 pages (1024)
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf2c0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 256 pages (768)
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf3c0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 256 pages (512)
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf4c0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 256 pages (256)
+Feb 02 11:33:03: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf5c0000
+Feb 02 11:33:03: VMX|MemHostFreePages: Freeing 256 pages (0)
+Feb 02 11:33:03: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:33:03: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:33:03: VMX|VMX: changing state 0 from 1872 to 1870
+Feb 02 11:33:03: UI|VMX(UI): changing state 0 from 1872 to 1870, nesting 0
+Feb 02 11:33:08: VMX|PowerOn
+Feb 02 11:33:08: VMX|VMX: changing state 0 from 1870 to 1871
+Feb 02 11:33:08: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Feb 02 11:33:08: VMX|HOST Windows version 5.0, build 2195, platform 2, "Service Pack 2"
+Feb 02 11:33:08: VMX|DICT --- USER PREFERENCES
+Feb 02 11:33:08: VMX|DICT        prefvmx.mru.config = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmx;C:\DOCUMENTI\My Virtual Machines\Windows 2000 Professional\Windows 2000 Professional.vmx;C:\DOCUMENTI\My Virtual Machines\Linux (4)\Linux (4).vmx;C:\DOCUMENTI\My Virtual Machines\Linux\Linux.vmx;
+Feb 02 11:33:08: VMX|DICT   hint.gui.powerOffButton = FALSE
+Feb 02 11:33:08: VMX|DICT     prefvmx.mru.suspended = 
+Feb 02 11:33:08: VMX|DICT     hint.tools.toolsImage = FALSE
+Feb 02 11:33:08: VMX|DICT       hint.mks.fullscreen = FALSE
+Feb 02 11:33:08: VMX|DICT --- USER DEFAULTS
+Feb 02 11:33:08: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:33:08: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:33:08: VMX|DICT --- COMMAND LINE
+Feb 02 11:33:08: VMX|DICT             gui.available = TRUE
+Feb 02 11:33:08: VMX|DICT --- CONFIGURATION
+Feb 02 11:33:08: VMX|DICT            config.version = 6
+Feb 02 11:33:08: VMX|DICT         virtualHW.version = 2
+Feb 02 11:33:08: VMX|DICT               displayName = PitOS Testbed
+Feb 02 11:33:08: VMX|DICT          floppy0.fileType = file
+Feb 02 11:33:08: VMX|DICT               usb.present = FALSE
+Feb 02 11:33:08: VMX|DICT                      draw = gdi
+Feb 02 11:33:08: VMX|DICT                   guestOS = other
+Feb 02 11:33:08: VMX|DICT            ide0:0.present = FALSE
+Feb 02 11:33:08: VMX|DICT           ide0:0.fileName = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk
+Feb 02 11:33:08: VMX|DICT            ide1:0.present = FALSE
+Feb 02 11:33:08: VMX|DICT         ide1:0.deviceType = atapi-cdrom
+Feb 02 11:33:08: VMX|DICT           ide1:0.fileName = auto detect
+Feb 02 11:33:08: VMX|DICT                   memsize = 192
+Feb 02 11:33:08: VMX|DICT          floppy0.fileName = C:\dev\asm\pitos\bin\floppy.flp
+Feb 02 11:33:08: VMX|DICT       tools.remindInstall = FALSE
+Feb 02 11:33:08: VMX|DICT --- USER DEFAULTS
+Feb 02 11:33:08: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:33:08: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:33:08: VMX|DICT --- GLOBAL SETTINGS
+Feb 02 11:33:08: VMX|MStat: Creating Stat vm.uptime
+Feb 02 11:33:08: VMX|GuestOSId = 0x500a 
+Feb 02 11:33:08: VMX|GetSystemTimeAdjustment returned unknown clockInterval 100144
+Feb 02 11:33:08: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:33:08: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:33:08: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:33:08: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:33:08: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:33:08: VMX|minReservedMemInMB=32 maxReservedMemInMB=384 defaultReservedMemInMB=384
+totOverheadInMB=16
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 0
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 1
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 2
+Feb 02 11:33:08: VMX|Mhz estimate 807
+Feb 02 11:33:08: VMX|MHZEstimate 807
+Feb 02 11:33:08: VMX|MemHostDoMapAWE: mapSize 438272 nodeSize 438272
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 107 pages (107)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 107 pages @ 0xe4d0000
+Feb 02 11:33:08: VMX|MemHostDoMapAWE: addr=0xe4d0000 numPages=0x6b
+Feb 02 11:33:08: VMX|VirtualProtect MapProtectMem(0xe4d0000,0x6b000) returns 0x1e7
+Feb 02 11:33:08: VMX|Error write protecting monitor.
+Feb 02 11:33:08: VMX|MStat: Creating Stat vm.heartbeat
+Feb 02 11:33:08: VMX|TOOLS INSTALL initializing state to IDLE on power on.
+Feb 02 11:33:08: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 3
+Feb 02 11:33:08: VMX|Host_SetFastClockRate: rate=0
+Feb 02 11:33:08: VMX|Using unified VGA.
+Feb 02 11:33:08: VMX|SVGA frame buffer address 0x7efc0000
+Feb 02 11:33:08: MKS|SVGA changing width from 2364 to 1024
+Feb 02 11:33:08: MKS|SVGA changing height from 1773 to 768
+Feb 02 11:33:08: MKS|SVGA phys sizes: 1024x768x32 bpl 4096 offset 0 fb 0x00300000/0x00300000
+Feb 02 11:33:08: VMX|SVGA frame buffer size 0x00300000/0x00300000/0x00300000
+Feb 02 11:33:08: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:33:08: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:33:08: VMX|VNET: receive cluster size is 1, threshold is 150
+Feb 02 11:33:08: VMX|VNET: send cluster threshold is 150, size = 5 recalcInterval is 2 ticks
+Feb 02 11:33:08: VMX|Powering on VNet Notification
+Feb 02 11:33:08: VMX|0:0:0: vendor 0x0 device 0x0 class 0x0 sub-class 0x0 intLine 0 vector 48
+Feb 02 11:33:08: VMX|1:0:0: vendor 0x14af device 0x7109 class 0x1f sub-class 0x0 intLine 0 vector 48
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:33:08: VMX|PHYSMEM: DynAlloc 0: 0xffffffff + 768 pages
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:33:08: VMX|PHYSMEM: DynAlloc 1: 0xffffffff + 64 pages
+Feb 02 11:33:08: VMX|(VMX) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:33:08: *NULL*(SELF) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:33:08: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:33:08: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:33:08: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:33:08: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:33:08: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:33:08: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:33:08: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:33:08: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:33:08: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:33:08: Floppy|FloppyImage: Locking of Images not yet supported
+Feb 02 11:33:08: VMX|VMX_PowerOn: ModuleTable_PowerOn = 1
+Feb 02 11:33:08: VMX|VMX_PowerOn: Barrier_Last = 1
+Feb 02 11:33:08: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 256 pages (363)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 256 pages @ 0xf010000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: 256 pages @ 0xf010000
+Feb 02 11:33:08: VMX|Monitor initalized: Release.e.x.p$Name: build-1455 $ (gcc)
+Feb 02 11:33:08: VMX|Monitor controlFlag: 0x2000900:0x20
+Feb 02 11:33:08: VMX|cpuFeatures = 0x5a02
+Feb 02 11:33:08: VMX|MMU_Init: Release.e.x.p$Name: build-1455 $ STD.
+Feb 02 11:33:08: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 256 pages (619)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 256 pages @ 0xf110000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: 256 pages @ 0xf110000
+Feb 02 11:33:08: VMX|FPU_Init  cr0=0x8001003b
+Feb 02 11:33:08: VMX|VMX: changing state 0 from 1871 to 1872
+Feb 02 11:33:08: UI|VMX(UI): changing state 0 from 1871 to 1872, nesting 0
+Feb 02 11:33:08: MKS|MKSHostResizeWindow got pathetically tiny size (9,1).  Ignoring.
+Feb 02 11:33:08: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 256 pages (875)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 256 pages @ 0xf310000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: 256 pages @ 0xf310000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 256 pages (1131)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 256 pages @ 0xf410000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: 256 pages @ 0xf410000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 256 pages (1387)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 256 pages @ 0xf510000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: 256 pages @ 0xf510000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:33:08: VMX|MemHostAllocPages: Allocating 256 pages (1643)
+Feb 02 11:33:08: VMX|MemHostMapPages: Mapped 256 pages @ 0xf610000
+Feb 02 11:33:08: VMX|MemAllocAnonPage: 256 pages @ 0xf610000
+Feb 02 11:33:08: VMX|Booting virtual machine
+Feb 02 11:33:08: VMX|
+Feb 02 11:33:08: VMX|Host_SetFastClockRate: rate=36
+Feb 02 11:33:08: VMX|SVGA: Registering MemSpace at 0xfd000000(0x7efc0000) and 0xfc000000(0x7ffc0000)
+Feb 02 11:33:08: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:33:08: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:33:08: VMX|OPROM: allocating 8000 bytes for .vbios
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:33:08: VMX|PHYSMEM: DynAlloc 2: 0xfe800 + 8 pages
+Feb 02 11:33:08: VMX|OPROM: loading .vbios
+Feb 02 11:33:08: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:33:08: VMX|OPROM: smashing .vbios
+Feb 02 11:33:08: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:33:08: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:33:08: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:33:08: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:33:08: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:33:08: VMX|OPROM: loading .vbios
+Feb 02 11:33:08: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:33:08: VMX|OPROM: smashing .vbios
+Feb 02 11:33:08: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:33:08: VMX|SVGA: Registering IOSpace at 0x1060 (0x0000)
+Feb 02 11:33:08: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:33:08: VMX|VBE call 0x4f02 bx 0x0007 cx 0x03d5 es 0x0078 di 0x0000
+Feb 02 11:33:08: VMX|VBE: VGA Mode switch to 7(7)
+Feb 02 11:33:09: VMX|VBE call 0x4f02 bx 0x0003 cx 0x03c2 es 0x0078 di 0x0000
+Feb 02 11:33:09: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:33:09: VMX|VBE call 0x4f02 bx 0x0012 cx 0x03b5 es 0x01c1 di 0x7b96
+Feb 02 11:33:09: VMX|VBE: VGA Mode switch to 18(18)
+Feb 02 11:33:09: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:33:10: VMX|VBE call 0x4f00 bx 0x0b98 cx 0x0200 es 0x7f80 di 0x005a
+Feb 02 11:33:10: VMX|VBE: DATA OFFSET from VGA BIOS = 0xb98, size=512
+Feb 02 11:33:10: VMX|VBE: VESA VideoModePtr = 0xc0000bc2
+Feb 02 11:33:14: VMX|VBE call 0x4f02 bx 0x0003 cx 0x0202 es 0x92db di 0x3807
+Feb 02 11:33:14: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:33:14: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:33:15: VMX|Host_SetFastClockRate: rate=40
+Feb 02 11:33:17: UI|Msg_Hint hint.gui.powerOffButton (not shown)
+Feb 02 11:33:17: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:33:17: VMX|OPROM: ignoring unmap of .vbios: already unmapped
+Feb 02 11:33:17: VMX|OPROM: OpromPowerOff
+Feb 02 11:33:17: Floppy|FloppyImage: Unlocking of Images not yet supported
+Feb 02 11:33:17: VMX|AIOPowerOff Floppy
+Feb 02 11:33:17: Floppy|AIOSlave: Floppy exiting cleanly.
+Feb 02 11:33:17: Floppy|IPC_exit: disconnecting all threads
+Feb 02 11:33:17: Floppy|Floppy IPC closed the connection with thread VMX (0x02396ee0)
+Feb 02 11:33:17: Floppy|Floppy IPC The "VMX" thread exited cleanly.
+Feb 02 11:33:17: VMX|VMX IPC closed the connection with thread Floppy (0x00134970)
+Feb 02 11:33:17: VMX|MemHostDoUnmapAWE: 107 pages @ 0xe4d0000
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 107 pages @ 0xe4d0000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 107 pages (1536)
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf010000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 256 pages (1280)
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf110000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 256 pages (1024)
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf310000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 256 pages (768)
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf410000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 256 pages (512)
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf510000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 256 pages (256)
+Feb 02 11:33:17: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf610000
+Feb 02 11:33:17: VMX|MemHostFreePages: Freeing 256 pages (0)
+Feb 02 11:33:17: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:33:17: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:33:17: VMX|VMX: changing state 0 from 1872 to 1870
+Feb 02 11:33:17: UI|VMX(UI): changing state 0 from 1872 to 1870, nesting 0
+Feb 02 11:37:53: VMX|PowerOn
+Feb 02 11:37:53: VMX|VMX: changing state 0 from 1870 to 1871
+Feb 02 11:37:53: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Feb 02 11:37:53: VMX|HOST Windows version 5.0, build 2195, platform 2, "Service Pack 2"
+Feb 02 11:37:53: VMX|DICT --- USER PREFERENCES
+Feb 02 11:37:53: VMX|DICT        prefvmx.mru.config = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmx;C:\DOCUMENTI\My Virtual Machines\Windows 2000 Professional\Windows 2000 Professional.vmx;C:\DOCUMENTI\My Virtual Machines\Linux (4)\Linux (4).vmx;C:\DOCUMENTI\My Virtual Machines\Linux\Linux.vmx;
+Feb 02 11:37:53: VMX|DICT   hint.gui.powerOffButton = FALSE
+Feb 02 11:37:53: VMX|DICT     prefvmx.mru.suspended = 
+Feb 02 11:37:53: VMX|DICT     hint.tools.toolsImage = FALSE
+Feb 02 11:37:53: VMX|DICT       hint.mks.fullscreen = FALSE
+Feb 02 11:37:53: VMX|DICT --- USER DEFAULTS
+Feb 02 11:37:53: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:37:53: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:37:53: VMX|DICT --- COMMAND LINE
+Feb 02 11:37:53: VMX|DICT             gui.available = TRUE
+Feb 02 11:37:53: VMX|DICT --- CONFIGURATION
+Feb 02 11:37:53: VMX|DICT            config.version = 6
+Feb 02 11:37:53: VMX|DICT         virtualHW.version = 2
+Feb 02 11:37:53: VMX|DICT               displayName = PitOS Testbed
+Feb 02 11:37:53: VMX|DICT          floppy0.fileType = file
+Feb 02 11:37:53: VMX|DICT               usb.present = FALSE
+Feb 02 11:37:53: VMX|DICT                      draw = gdi
+Feb 02 11:37:53: VMX|DICT                   guestOS = other
+Feb 02 11:37:53: VMX|DICT            ide0:0.present = FALSE
+Feb 02 11:37:53: VMX|DICT           ide0:0.fileName = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk
+Feb 02 11:37:53: VMX|DICT            ide1:0.present = FALSE
+Feb 02 11:37:53: VMX|DICT         ide1:0.deviceType = atapi-cdrom
+Feb 02 11:37:53: VMX|DICT           ide1:0.fileName = auto detect
+Feb 02 11:37:53: VMX|DICT                   memsize = 192
+Feb 02 11:37:53: VMX|DICT          floppy0.fileName = C:\dev\asm\pitos\bin\floppy.flp
+Feb 02 11:37:53: VMX|DICT       tools.remindInstall = FALSE
+Feb 02 11:37:53: VMX|DICT --- USER DEFAULTS
+Feb 02 11:37:53: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:37:53: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:37:53: VMX|DICT --- GLOBAL SETTINGS
+Feb 02 11:37:53: VMX|MStat: Creating Stat vm.uptime
+Feb 02 11:37:53: VMX|GuestOSId = 0x500a 
+Feb 02 11:37:53: VMX|GetSystemTimeAdjustment returned unknown clockInterval 100144
+Feb 02 11:37:53: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:37:53: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:37:53: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:37:53: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:37:53: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:37:53: VMX|minReservedMemInMB=32 maxReservedMemInMB=384 defaultReservedMemInMB=384
+totOverheadInMB=16
+Feb 02 11:37:53: VMX|PHYSMEM: TryAddRegion 0
+Feb 02 11:37:53: VMX|PHYSMEM: TryAddRegion 1
+Feb 02 11:37:53: VMX|PHYSMEM: TryAddRegion 2
+Feb 02 11:37:53: VMX|Mhz estimate 807
+Feb 02 11:37:53: VMX|MHZEstimate 807
+Feb 02 11:37:53: VMX|MemHostDoMapAWE: mapSize 438272 nodeSize 438272
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 107 pages (107)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 107 pages @ 0xe4d0000
+Feb 02 11:37:53: VMX|MemHostDoMapAWE: addr=0xe4d0000 numPages=0x6b
+Feb 02 11:37:53: VMX|VirtualProtect MapProtectMem(0xe4d0000,0x6b000) returns 0x1e7
+Feb 02 11:37:53: VMX|Error write protecting monitor.
+Feb 02 11:37:53: VMX|MStat: Creating Stat vm.heartbeat
+Feb 02 11:37:53: VMX|TOOLS INSTALL initializing state to IDLE on power on.
+Feb 02 11:37:53: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:37:53: VMX|PHYSMEM: TryAddRegion 3
+Feb 02 11:37:53: VMX|Host_SetFastClockRate: rate=0
+Feb 02 11:37:53: VMX|Using unified VGA.
+Feb 02 11:37:53: VMX|SVGA frame buffer address 0x7efc0000
+Feb 02 11:37:53: MKS|SVGA changing width from 2364 to 1024
+Feb 02 11:37:53: MKS|SVGA changing height from 1773 to 768
+Feb 02 11:37:53: MKS|SVGA phys sizes: 1024x768x32 bpl 4096 offset 0 fb 0x00300000/0x00300000
+Feb 02 11:37:53: VMX|SVGA frame buffer size 0x00300000/0x00300000/0x00300000
+Feb 02 11:37:53: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:37:53: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:37:53: VMX|VNET: receive cluster size is 1, threshold is 150
+Feb 02 11:37:53: VMX|VNET: send cluster threshold is 150, size = 5 recalcInterval is 2 ticks
+Feb 02 11:37:53: VMX|Powering on VNet Notification
+Feb 02 11:37:53: VMX|0:0:0: vendor 0x0 device 0x0 class 0x0 sub-class 0x0 intLine 0 vector 48
+Feb 02 11:37:53: VMX|1:0:0: vendor 0x14af device 0x7109 class 0x1f sub-class 0x0 intLine 0 vector 48
+Feb 02 11:37:53: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:37:53: VMX|PHYSMEM: DynAlloc 0: 0xffffffff + 768 pages
+Feb 02 11:37:53: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:37:53: VMX|PHYSMEM: DynAlloc 1: 0xffffffff + 64 pages
+Feb 02 11:37:53: VMX|(VMX) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:37:53: *NULL*(SELF) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:37:53: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:37:53: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:37:53: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:37:53: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:37:53: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:37:53: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:37:53: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:37:53: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:37:53: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:37:53: Floppy|FloppyImage: Locking of Images not yet supported
+Feb 02 11:37:53: VMX|VMX_PowerOn: ModuleTable_PowerOn = 1
+Feb 02 11:37:53: VMX|VMX_PowerOn: Barrier_Last = 1
+Feb 02 11:37:53: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 256 pages (363)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 256 pages @ 0xf010000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: 256 pages @ 0xf010000
+Feb 02 11:37:53: VMX|Monitor initalized: Release.e.x.p$Name: build-1455 $ (gcc)
+Feb 02 11:37:53: VMX|Monitor controlFlag: 0x2000900:0x20
+Feb 02 11:37:53: VMX|cpuFeatures = 0x5a02
+Feb 02 11:37:53: VMX|MMU_Init: Release.e.x.p$Name: build-1455 $ STD.
+Feb 02 11:37:53: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 256 pages (619)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 256 pages @ 0xf110000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: 256 pages @ 0xf110000
+Feb 02 11:37:53: VMX|FPU_Init  cr0=0x8001003b
+Feb 02 11:37:53: VMX|VMX: changing state 0 from 1871 to 1872
+Feb 02 11:37:53: UI|VMX(UI): changing state 0 from 1871 to 1872, nesting 0
+Feb 02 11:37:53: MKS|MKSHostResizeWindow got pathetically tiny size (9,1).  Ignoring.
+Feb 02 11:37:53: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 256 pages (875)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 256 pages @ 0xf510000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: 256 pages @ 0xf510000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 256 pages (1131)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 256 pages @ 0xf610000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: 256 pages @ 0xf610000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 256 pages (1387)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 256 pages @ 0xf710000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: 256 pages @ 0xf710000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:53: VMX|MemHostAllocPages: Allocating 256 pages (1643)
+Feb 02 11:37:53: VMX|MemHostMapPages: Mapped 256 pages @ 0xf810000
+Feb 02 11:37:53: VMX|MemAllocAnonPage: 256 pages @ 0xf810000
+Feb 02 11:37:53: VMX|Booting virtual machine
+Feb 02 11:37:53: VMX|
+Feb 02 11:37:53: VMX|Host_SetFastClockRate: rate=36
+Feb 02 11:37:53: UI|Msg_Hint hint.gui.powerOffButton (not shown)
+Feb 02 11:37:53: VMX|OPROM: ignoring unmap of .vbios: already unmapped
+Feb 02 11:37:53: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:37:53: VMX|OPROM: OpromPowerOff
+Feb 02 11:37:53: Floppy|FloppyImage: Unlocking of Images not yet supported
+Feb 02 11:37:53: VMX|AIOPowerOff Floppy
+Feb 02 11:37:53: Floppy|AIOSlave: Floppy exiting cleanly.
+Feb 02 11:37:53: Floppy|IPC_exit: disconnecting all threads
+Feb 02 11:37:53: Floppy|Floppy IPC closed the connection with thread VMX (0x02396ee0)
+Feb 02 11:37:53: Floppy|Floppy IPC The "VMX" thread exited cleanly.
+Feb 02 11:37:53: VMX|VMX IPC closed the connection with thread Floppy (0x00134970)
+Feb 02 11:37:53: VMX|MemHostDoUnmapAWE: 107 pages @ 0xe4d0000
+Feb 02 11:37:53: VMX|MemHostUnmapPages: Unmapping 107 pages @ 0xe4d0000
+Feb 02 11:37:53: VMX|MemHostFreePages: Freeing 107 pages (1536)
+Feb 02 11:37:54: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf010000
+Feb 02 11:37:54: VMX|MemHostFreePages: Freeing 256 pages (1280)
+Feb 02 11:37:54: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf110000
+Feb 02 11:37:54: VMX|MemHostFreePages: Freeing 256 pages (1024)
+Feb 02 11:37:54: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf510000
+Feb 02 11:37:54: VMX|MemHostFreePages: Freeing 256 pages (768)
+Feb 02 11:37:54: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf610000
+Feb 02 11:37:54: VMX|MemHostFreePages: Freeing 256 pages (512)
+Feb 02 11:37:54: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf710000
+Feb 02 11:37:54: VMX|MemHostFreePages: Freeing 256 pages (256)
+Feb 02 11:37:54: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf810000
+Feb 02 11:37:54: VMX|MemHostFreePages: Freeing 256 pages (0)
+Feb 02 11:37:54: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:37:54: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:37:54: VMX|VMX: changing state 0 from 1872 to 1870
+Feb 02 11:37:54: UI|VMX(UI): changing state 0 from 1872 to 1870, nesting 0
+Feb 02 11:37:56: VMX|PowerOn
+Feb 02 11:37:56: VMX|VMX: changing state 0 from 1870 to 1871
+Feb 02 11:37:56: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Feb 02 11:37:56: VMX|HOST Windows version 5.0, build 2195, platform 2, "Service Pack 2"
+Feb 02 11:37:56: VMX|DICT --- USER PREFERENCES
+Feb 02 11:37:56: VMX|DICT        prefvmx.mru.config = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmx;C:\DOCUMENTI\My Virtual Machines\Windows 2000 Professional\Windows 2000 Professional.vmx;C:\DOCUMENTI\My Virtual Machines\Linux (4)\Linux (4).vmx;C:\DOCUMENTI\My Virtual Machines\Linux\Linux.vmx;
+Feb 02 11:37:56: VMX|DICT   hint.gui.powerOffButton = FALSE
+Feb 02 11:37:56: VMX|DICT     prefvmx.mru.suspended = 
+Feb 02 11:37:56: VMX|DICT     hint.tools.toolsImage = FALSE
+Feb 02 11:37:56: VMX|DICT       hint.mks.fullscreen = FALSE
+Feb 02 11:37:56: VMX|DICT --- USER DEFAULTS
+Feb 02 11:37:56: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:37:56: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:37:56: VMX|DICT --- COMMAND LINE
+Feb 02 11:37:56: VMX|DICT             gui.available = TRUE
+Feb 02 11:37:56: VMX|DICT --- CONFIGURATION
+Feb 02 11:37:56: VMX|DICT            config.version = 6
+Feb 02 11:37:56: VMX|DICT         virtualHW.version = 2
+Feb 02 11:37:56: VMX|DICT               displayName = PitOS Testbed
+Feb 02 11:37:56: VMX|DICT          floppy0.fileType = file
+Feb 02 11:37:56: VMX|DICT               usb.present = FALSE
+Feb 02 11:37:56: VMX|DICT                      draw = gdi
+Feb 02 11:37:56: VMX|DICT                   guestOS = other
+Feb 02 11:37:56: VMX|DICT            ide0:0.present = FALSE
+Feb 02 11:37:56: VMX|DICT           ide0:0.fileName = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk
+Feb 02 11:37:56: VMX|DICT            ide1:0.present = FALSE
+Feb 02 11:37:56: VMX|DICT         ide1:0.deviceType = atapi-cdrom
+Feb 02 11:37:56: VMX|DICT           ide1:0.fileName = auto detect
+Feb 02 11:37:56: VMX|DICT                   memsize = 192
+Feb 02 11:37:56: VMX|DICT          floppy0.fileName = C:\dev\asm\pitos\bin\floppy.flp
+Feb 02 11:37:56: VMX|DICT       tools.remindInstall = FALSE
+Feb 02 11:37:56: VMX|DICT --- USER DEFAULTS
+Feb 02 11:37:56: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:37:56: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:37:56: VMX|DICT --- GLOBAL SETTINGS
+Feb 02 11:37:56: VMX|MStat: Creating Stat vm.uptime
+Feb 02 11:37:56: VMX|GuestOSId = 0x500a 
+Feb 02 11:37:56: VMX|GetSystemTimeAdjustment returned unknown clockInterval 100144
+Feb 02 11:37:56: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:37:56: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:37:56: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:37:56: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:37:56: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:37:56: VMX|minReservedMemInMB=32 maxReservedMemInMB=384 defaultReservedMemInMB=384
+totOverheadInMB=16
+Feb 02 11:37:56: VMX|PHYSMEM: TryAddRegion 0
+Feb 02 11:37:56: VMX|PHYSMEM: TryAddRegion 1
+Feb 02 11:37:56: VMX|PHYSMEM: TryAddRegion 2
+Feb 02 11:37:56: VMX|Mhz estimate 807
+Feb 02 11:37:56: VMX|MHZEstimate 807
+Feb 02 11:37:56: VMX|MemHostDoMapAWE: mapSize 438272 nodeSize 438272
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 107 pages (107)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 107 pages @ 0xe4d0000
+Feb 02 11:37:56: VMX|MemHostDoMapAWE: addr=0xe4d0000 numPages=0x6b
+Feb 02 11:37:56: VMX|VirtualProtect MapProtectMem(0xe4d0000,0x6b000) returns 0x1e7
+Feb 02 11:37:56: VMX|Error write protecting monitor.
+Feb 02 11:37:56: VMX|MStat: Creating Stat vm.heartbeat
+Feb 02 11:37:56: VMX|TOOLS INSTALL initializing state to IDLE on power on.
+Feb 02 11:37:56: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:37:56: VMX|PHYSMEM: TryAddRegion 3
+Feb 02 11:37:56: VMX|Host_SetFastClockRate: rate=0
+Feb 02 11:37:56: VMX|Using unified VGA.
+Feb 02 11:37:56: VMX|SVGA frame buffer address 0x7efc0000
+Feb 02 11:37:56: MKS|SVGA changing width from 2364 to 1024
+Feb 02 11:37:56: MKS|SVGA changing height from 1773 to 768
+Feb 02 11:37:56: MKS|SVGA phys sizes: 1024x768x32 bpl 4096 offset 0 fb 0x00300000/0x00300000
+Feb 02 11:37:56: VMX|SVGA frame buffer size 0x00300000/0x00300000/0x00300000
+Feb 02 11:37:56: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:37:56: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:37:56: VMX|VNET: receive cluster size is 1, threshold is 150
+Feb 02 11:37:56: VMX|VNET: send cluster threshold is 150, size = 5 recalcInterval is 2 ticks
+Feb 02 11:37:56: VMX|Powering on VNet Notification
+Feb 02 11:37:56: VMX|0:0:0: vendor 0x0 device 0x0 class 0x0 sub-class 0x0 intLine 0 vector 48
+Feb 02 11:37:56: VMX|1:0:0: vendor 0x14af device 0x7109 class 0x1f sub-class 0x0 intLine 0 vector 48
+Feb 02 11:37:56: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:37:56: VMX|PHYSMEM: DynAlloc 0: 0xffffffff + 768 pages
+Feb 02 11:37:56: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:37:56: VMX|PHYSMEM: DynAlloc 1: 0xffffffff + 64 pages
+Feb 02 11:37:56: VMX|(VMX) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:37:56: *NULL*(SELF) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:37:56: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:37:56: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:37:56: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:37:56: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:37:56: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:37:56: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:37:56: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:37:56: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:37:56: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:37:56: Floppy|FloppyImage: Locking of Images not yet supported
+Feb 02 11:37:56: VMX|VMX_PowerOn: ModuleTable_PowerOn = 1
+Feb 02 11:37:56: VMX|VMX_PowerOn: Barrier_Last = 1
+Feb 02 11:37:56: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 256 pages (363)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 256 pages @ 0xefd0000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: 256 pages @ 0xefd0000
+Feb 02 11:37:56: VMX|Monitor initalized: Release.e.x.p$Name: build-1455 $ (gcc)
+Feb 02 11:37:56: VMX|Monitor controlFlag: 0x2000900:0x20
+Feb 02 11:37:56: VMX|cpuFeatures = 0x5a02
+Feb 02 11:37:56: VMX|MMU_Init: Release.e.x.p$Name: build-1455 $ STD.
+Feb 02 11:37:56: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 256 pages (619)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 256 pages @ 0xf0d0000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: 256 pages @ 0xf0d0000
+Feb 02 11:37:56: VMX|FPU_Init  cr0=0x8001003b
+Feb 02 11:37:56: MKS|MKSHostResizeWindow got pathetically tiny size (9,1).  Ignoring.
+Feb 02 11:37:56: VMX|VMX: changing state 0 from 1871 to 1872
+Feb 02 11:37:56: UI|VMX(UI): changing state 0 from 1871 to 1872, nesting 0
+Feb 02 11:37:56: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 256 pages (875)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 256 pages @ 0xf510000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: 256 pages @ 0xf510000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 256 pages (1131)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 256 pages @ 0xf610000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: 256 pages @ 0xf610000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 256 pages (1387)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 256 pages @ 0xf710000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: 256 pages @ 0xf710000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:37:56: VMX|MemHostAllocPages: Allocating 256 pages (1643)
+Feb 02 11:37:56: VMX|MemHostMapPages: Mapped 256 pages @ 0xf810000
+Feb 02 11:37:56: VMX|MemAllocAnonPage: 256 pages @ 0xf810000
+Feb 02 11:37:56: VMX|Booting virtual machine
+Feb 02 11:37:56: VMX|
+Feb 02 11:37:56: VMX|Host_SetFastClockRate: rate=36
+Feb 02 11:37:57: VMX|SVGA: Registering MemSpace at 0xfd000000(0x7efc0000) and 0xfc000000(0x7ffc0000)
+Feb 02 11:37:57: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:37:57: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:37:57: VMX|OPROM: allocating 8000 bytes for .vbios
+Feb 02 11:37:57: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:37:57: VMX|PHYSMEM: DynAlloc 2: 0xfe800 + 8 pages
+Feb 02 11:37:57: VMX|OPROM: loading .vbios
+Feb 02 11:37:57: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:37:57: VMX|OPROM: smashing .vbios
+Feb 02 11:37:57: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:37:57: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:37:57: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:37:57: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:37:57: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:37:57: VMX|OPROM: loading .vbios
+Feb 02 11:37:57: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:37:57: VMX|OPROM: smashing .vbios
+Feb 02 11:37:57: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:37:57: VMX|SVGA: Registering IOSpace at 0x1060 (0x0000)
+Feb 02 11:37:57: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:37:57: VMX|VBE call 0x4f02 bx 0x0007 cx 0x03d5 es 0x0078 di 0x0000
+Feb 02 11:37:57: VMX|VBE: VGA Mode switch to 7(7)
+Feb 02 11:37:57: VMX|VBE call 0x4f02 bx 0x0003 cx 0x03c2 es 0x0078 di 0x0000
+Feb 02 11:37:57: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:37:57: VMX|VBE call 0x4f02 bx 0x0012 cx 0x03b5 es 0x01c1 di 0x7b96
+Feb 02 11:37:57: VMX|VBE: VGA Mode switch to 18(18)
+Feb 02 11:37:57: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:37:58: VMX|VBE call 0x4f00 bx 0x0b98 cx 0x0200 es 0x7f80 di 0x005a
+Feb 02 11:37:58: VMX|VBE: DATA OFFSET from VGA BIOS = 0xb98, size=512
+Feb 02 11:37:58: VMX|VBE: VESA VideoModePtr = 0xc0000bc2
+Feb 02 11:38:02: VMX|VBE call 0x4f02 bx 0x0003 cx 0x0202 es 0x92db di 0x3807
+Feb 02 11:38:02: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:38:02: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:38:03: VMX|Host_SetFastClockRate: rate=40
+Feb 02 11:38:07: MKS|MKS DIMOUSE done grabbing
+Feb 02 11:38:14: UI|Msg_Hint hint.gui.powerOffButton (not shown)
+Feb 02 11:38:14: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:38:14: VMX|OPROM: ignoring unmap of .vbios: already unmapped
+Feb 02 11:38:14: VMX|OPROM: OpromPowerOff
+Feb 02 11:38:14: Floppy|FloppyImage: Unlocking of Images not yet supported
+Feb 02 11:38:14: VMX|AIOPowerOff Floppy
+Feb 02 11:38:14: Floppy|AIOSlave: Floppy exiting cleanly.
+Feb 02 11:38:14: Floppy|IPC_exit: disconnecting all threads
+Feb 02 11:38:14: Floppy|Floppy IPC closed the connection with thread VMX (0x02396ee0)
+Feb 02 11:38:14: Floppy|Floppy IPC The "VMX" thread exited cleanly.
+Feb 02 11:38:14: VMX|VMX IPC closed the connection with thread Floppy (0x00134970)
+Feb 02 11:38:14: VMX|MemHostDoUnmapAWE: 107 pages @ 0xe4d0000
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 107 pages @ 0xe4d0000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 107 pages (1536)
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xefd0000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 256 pages (1280)
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf0d0000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 256 pages (1024)
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf510000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 256 pages (768)
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf610000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 256 pages (512)
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf710000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 256 pages (256)
+Feb 02 11:38:14: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf810000
+Feb 02 11:38:14: VMX|MemHostFreePages: Freeing 256 pages (0)
+Feb 02 11:38:14: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:38:14: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:38:14: VMX|VMX: changing state 0 from 1872 to 1870
+Feb 02 11:38:14: UI|VMX(UI): changing state 0 from 1872 to 1870, nesting 0
+Feb 02 11:41:19: VMX|PowerOn
+Feb 02 11:41:19: VMX|VMX: changing state 0 from 1870 to 1871
+Feb 02 11:41:19: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Feb 02 11:41:19: VMX|HOST Windows version 5.0, build 2195, platform 2, "Service Pack 2"
+Feb 02 11:41:19: VMX|DICT --- USER PREFERENCES
+Feb 02 11:41:19: VMX|DICT        prefvmx.mru.config = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmx;C:\DOCUMENTI\My Virtual Machines\Windows 2000 Professional\Windows 2000 Professional.vmx;C:\DOCUMENTI\My Virtual Machines\Linux (4)\Linux (4).vmx;C:\DOCUMENTI\My Virtual Machines\Linux\Linux.vmx;
+Feb 02 11:41:19: VMX|DICT   hint.gui.powerOffButton = FALSE
+Feb 02 11:41:19: VMX|DICT     prefvmx.mru.suspended = 
+Feb 02 11:41:19: VMX|DICT     hint.tools.toolsImage = FALSE
+Feb 02 11:41:19: VMX|DICT       hint.mks.fullscreen = FALSE
+Feb 02 11:41:19: VMX|DICT --- USER DEFAULTS
+Feb 02 11:41:19: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:41:19: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:41:19: VMX|DICT --- COMMAND LINE
+Feb 02 11:41:19: VMX|DICT             gui.available = TRUE
+Feb 02 11:41:19: VMX|DICT --- CONFIGURATION
+Feb 02 11:41:19: VMX|DICT            config.version = 6
+Feb 02 11:41:19: VMX|DICT         virtualHW.version = 2
+Feb 02 11:41:19: VMX|DICT               displayName = PitOS Testbed
+Feb 02 11:41:19: VMX|DICT          floppy0.fileType = file
+Feb 02 11:41:19: VMX|DICT               usb.present = FALSE
+Feb 02 11:41:19: VMX|DICT                      draw = gdi
+Feb 02 11:41:19: VMX|DICT                   guestOS = other
+Feb 02 11:41:19: VMX|DICT            ide0:0.present = FALSE
+Feb 02 11:41:19: VMX|DICT           ide0:0.fileName = c:\dev\asm\pitos\vmware\PitOS Testbed\PitOS Testbed.vmdk
+Feb 02 11:41:19: VMX|DICT            ide1:0.present = FALSE
+Feb 02 11:41:19: VMX|DICT         ide1:0.deviceType = atapi-cdrom
+Feb 02 11:41:19: VMX|DICT           ide1:0.fileName = auto detect
+Feb 02 11:41:19: VMX|DICT                   memsize = 192
+Feb 02 11:41:19: VMX|DICT          floppy0.fileName = C:\dev\asm\pitos\bin\floppy.flp
+Feb 02 11:41:19: VMX|DICT       tools.remindInstall = FALSE
+Feb 02 11:41:19: VMX|DICT --- USER DEFAULTS
+Feb 02 11:41:19: VMX|DICT --- HOST DEFAULTS
+Feb 02 11:41:19: VMX|DICT --- SITE DEFAULTS
+Feb 02 11:41:19: VMX|DICT --- GLOBAL SETTINGS
+Feb 02 11:41:19: VMX|MStat: Creating Stat vm.uptime
+Feb 02 11:41:19: VMX|GuestOSId = 0x500a 
+Feb 02 11:41:19: VMX|GetSystemTimeAdjustment returned unknown clockInterval 100144
+Feb 02 11:41:19: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:41:19: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:41:19: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:41:19: VMX|License: Unable to enumerate keys in the registry
+Feb 02 11:41:19: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Feb 02 11:41:19: VMX|minReservedMemInMB=32 maxReservedMemInMB=384 defaultReservedMemInMB=384
+totOverheadInMB=16
+Feb 02 11:41:19: VMX|PHYSMEM: TryAddRegion 0
+Feb 02 11:41:19: VMX|PHYSMEM: TryAddRegion 1
+Feb 02 11:41:19: VMX|PHYSMEM: TryAddRegion 2
+Feb 02 11:41:19: VMX|Mhz estimate 807
+Feb 02 11:41:19: VMX|MHZEstimate 807
+Feb 02 11:41:19: VMX|MemHostDoMapAWE: mapSize 438272 nodeSize 438272
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 107 pages (107)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 107 pages @ 0xe4d0000
+Feb 02 11:41:19: VMX|MemHostDoMapAWE: addr=0xe4d0000 numPages=0x6b
+Feb 02 11:41:19: VMX|VirtualProtect MapProtectMem(0xe4d0000,0x6b000) returns 0x1e7
+Feb 02 11:41:19: VMX|Error write protecting monitor.
+Feb 02 11:41:19: VMX|MStat: Creating Stat vm.heartbeat
+Feb 02 11:41:19: VMX|TOOLS INSTALL initializing state to IDLE on power on.
+Feb 02 11:41:19: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:41:19: VMX|PHYSMEM: TryAddRegion 3
+Feb 02 11:41:19: VMX|Host_SetFastClockRate: rate=0
+Feb 02 11:41:19: VMX|Using unified VGA.
+Feb 02 11:41:19: VMX|SVGA frame buffer address 0x7efc0000
+Feb 02 11:41:19: MKS|SVGA changing width from 2364 to 1024
+Feb 02 11:41:19: MKS|SVGA changing height from 1773 to 768
+Feb 02 11:41:19: MKS|SVGA phys sizes: 1024x768x32 bpl 4096 offset 0 fb 0x00300000/0x00300000
+Feb 02 11:41:19: VMX|SVGA frame buffer size 0x00300000/0x00300000/0x00300000
+Feb 02 11:41:19: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:41:19: MKS|GetMode: 1024x768x32 @ 0 hz.
+Feb 02 11:41:19: VMX|VNET: receive cluster size is 1, threshold is 150
+Feb 02 11:41:19: VMX|VNET: send cluster threshold is 150, size = 5 recalcInterval is 2 ticks
+Feb 02 11:41:19: VMX|Powering on VNet Notification
+Feb 02 11:41:19: VMX|0:0:0: vendor 0x0 device 0x0 class 0x0 sub-class 0x0 intLine 0 vector 48
+Feb 02 11:41:19: VMX|1:0:0: vendor 0x14af device 0x7109 class 0x1f sub-class 0x0 intLine 0 vector 48
+Feb 02 11:41:19: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:41:19: VMX|PHYSMEM: DynAlloc 0: 0xffffffff + 768 pages
+Feb 02 11:41:19: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:41:19: VMX|PHYSMEM: DynAlloc 1: 0xffffffff + 64 pages
+Feb 02 11:41:19: VMX|(VMX) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:41:19: *NULL*(SELF) DeclareThread Floppy module=16 source=0x200000
+Feb 02 11:41:19: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:41:19: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:41:19: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:41:19: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:41:19: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:41:19: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:41:19: Floppy|PREF early PreferenceGet(msg.dictionary.error), using default
+Feb 02 11:41:19: Floppy|Msg_Reset: e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini: Impossibile trovare il file specificato.
+Feb 02 11:41:19: Floppy|PREF Failed to load e:\Programmi\VMware3_1455\VMware Workstation\Programs\config.ini
+Feb 02 11:41:19: Floppy|FloppyImage: Locking of Images not yet supported
+Feb 02 11:41:19: VMX|VMX_PowerOn: ModuleTable_PowerOn = 1
+Feb 02 11:41:19: VMX|VMX_PowerOn: Barrier_Last = 1
+Feb 02 11:41:19: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 256 pages (363)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 256 pages @ 0xefd0000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: 256 pages @ 0xefd0000
+Feb 02 11:41:19: VMX|Monitor initalized: Release.e.x.p$Name: build-1455 $ (gcc)
+Feb 02 11:41:19: VMX|Monitor controlFlag: 0x2000900:0x20
+Feb 02 11:41:19: VMX|cpuFeatures = 0x5a02
+Feb 02 11:41:19: VMX|MMU_Init: Release.e.x.p$Name: build-1455 $ STD.
+Feb 02 11:41:19: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 256 pages (619)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 256 pages @ 0xf0d0000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: 256 pages @ 0xf0d0000
+Feb 02 11:41:19: VMX|FPU_Init  cr0=0x8001003b
+Feb 02 11:41:19: VMX|VMX: changing state 0 from 1871 to 1872
+Feb 02 11:41:19: UI|VMX(UI): changing state 0 from 1871 to 1872, nesting 0
+Feb 02 11:41:19: MKS|MKSHostResizeWindow got pathetically tiny size (9,1).  Ignoring.
+Feb 02 11:41:19: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 256 pages (875)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 256 pages @ 0xf510000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: 256 pages @ 0xf510000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 256 pages (1131)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 256 pages @ 0xf610000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: 256 pages @ 0xf610000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 256 pages (1387)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 256 pages @ 0xf710000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: 256 pages @ 0xf710000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: Allocating range
+Feb 02 11:41:19: VMX|MemHostAllocPages: Allocating 256 pages (1643)
+Feb 02 11:41:19: VMX|MemHostMapPages: Mapped 256 pages @ 0xf810000
+Feb 02 11:41:19: VMX|MemAllocAnonPage: 256 pages @ 0xf810000
+Feb 02 11:41:19: VMX|Booting virtual machine
+Feb 02 11:41:19: VMX|
+Feb 02 11:41:19: VMX|Host_SetFastClockRate: rate=36
+Feb 02 11:41:19: VMX|SVGA: Registering MemSpace at 0xfd000000(0x7efc0000) and 0xfc000000(0x7ffc0000)
+Feb 02 11:41:20: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:41:20: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:41:20: VMX|OPROM: allocating 8000 bytes for .vbios
+Feb 02 11:41:20: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:41:20: VMX|PHYSMEM: DynAlloc 2: 0xfe800 + 8 pages
+Feb 02 11:41:20: VMX|OPROM: loading .vbios
+Feb 02 11:41:20: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:41:20: VMX|OPROM: smashing .vbios
+Feb 02 11:41:20: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:41:20: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:41:20: VMX|PCI SVGA: Asked to map the SVGA OPROM at 0xfe800000 (size 32768 bytes)
+Feb 02 11:41:20: VMX|OPROM: mapping .vbios: 0xfe800000-0xfe808000
+Feb 02 11:41:20: VMX|PHYSMEM: TryAddRegion 4
+Feb 02 11:41:20: VMX|OPROM: loading .vbios
+Feb 02 11:41:20: VMX|PCI SVGA: Asked to unmap the SVGA OPROM
+Feb 02 11:41:20: VMX|OPROM: smashing .vbios
+Feb 02 11:41:20: VMX|SVGA: Unregistering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:41:20: VMX|SVGA: Registering IOSpace at 0x1060 (0x0000)
+Feb 02 11:41:20: VMX|SVGA: Registering MemSpace at 0xfd000000(0xfd000000) and 0xfc000000(0xfc000000)
+Feb 02 11:41:20: VMX|VBE call 0x4f02 bx 0x0007 cx 0x03d5 es 0x0078 di 0x0000
+Feb 02 11:41:20: VMX|VBE: VGA Mode switch to 7(7)
+Feb 02 11:41:20: VMX|VBE call 0x4f02 bx 0x0003 cx 0x03c2 es 0x0078 di 0x0000
+Feb 02 11:41:20: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:41:20: VMX|VBE call 0x4f02 bx 0x0012 cx 0x03b5 es 0x01c1 di 0x7b96
+Feb 02 11:41:20: VMX|VBE: VGA Mode switch to 18(18)
+Feb 02 11:41:20: MKS|GetMode: 640x480x32 @ 0 hz.
+Feb 02 11:41:21: VMX|VBE call 0x4f00 bx 0x0b98 cx 0x0200 es 0x7f80 di 0x005a
+Feb 02 11:41:21: VMX|VBE: DATA OFFSET from VGA BIOS = 0xb98, size=512
+Feb 02 11:41:21: VMX|VBE: VESA VideoModePtr = 0xc0000bc2
+Feb 02 11:41:25: VMX|VBE call 0x4f02 bx 0x0003 cx 0x0202 es 0x92db di 0x3807
+Feb 02 11:41:25: VMX|VBE: VGA Mode switch to 3(3)
+Feb 02 11:41:25: MKS|GetMode: 720x400x32 @ 0 hz.
+Feb 02 11:41:26: VMX|Host_SetFastClockRate: rate=40
+Feb 02 11:41:52: UI|Msg_Hint hint.gui.powerOffButton (not shown)
+Feb 02 11:41:52: MKS|GetMode: 800x600x32 @ 0 hz.
+Feb 02 11:41:52: VMX|OPROM: ignoring unmap of .vbios: already unmapped
+Feb 02 11:41:52: VMX|OPROM: OpromPowerOff
+Feb 02 11:41:52: Floppy|FloppyImage: Unlocking of Images not yet supported
+Feb 02 11:41:52: VMX|AIOPowerOff Floppy
+Feb 02 11:41:52: Floppy|AIOSlave: Floppy exiting cleanly.
+Feb 02 11:41:52: Floppy|IPC_exit: disconnecting all threads
+Feb 02 11:41:52: Floppy|Floppy IPC closed the connection with thread VMX (0x02435a08)
+Feb 02 11:41:52: Floppy|Floppy IPC The "VMX" thread exited cleanly.
+Feb 02 11:41:52: VMX|VMX IPC closed the connection with thread Floppy (0x00134970)
+Feb 02 11:41:52: VMX|MemHostDoUnmapAWE: 107 pages @ 0xe4d0000
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 107 pages @ 0xe4d0000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 107 pages (1536)
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xefd0000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 256 pages (1280)
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf0d0000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 256 pages (1024)
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf510000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 256 pages (768)
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf610000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 256 pages (512)
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf710000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 256 pages (256)
+Feb 02 11:41:52: VMX|MemHostUnmapPages: Unmapping 256 pages @ 0xf810000
+Feb 02 11:41:52: VMX|MemHostFreePages: Freeing 256 pages (0)
+Feb 02 11:41:52: VMX|VMX: changing state 1 from 1873 to 1873
+Feb 02 11:41:52: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Feb 02 11:41:52: VMX|VMX: changing state 0 from 1872 to 1870
+Feb 02 11:41:52: UI|VMX(UI): changing state 0 from 1872 to 1870, nesting 0

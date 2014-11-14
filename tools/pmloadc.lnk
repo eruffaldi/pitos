@@ -1,0 +1,32 @@
+/*
+Pit Image Format:
+	length
+	reserved
+	entrypoint
+	
+ld -T pmloadc.lnk *.o --oformat binary -o mybinary.img
+
+Note: if you use CYGWIN you should make a cross compiler to i386-linux-coff because of
+many bugs that affect the coff generation (bad external link references and more)
+
+History:
+02/03/2001:	fixed overlapping of segments
+*/
+ENTRY(amain)
+SECTIONS
+{
+
+.text 0x3000C : AT(12) { *(.text) *(.data) *(.bss)}
+
+aligner : AT(SIZEOF(.text)+12) {         
+	. = ALIGN(512)-1;
+	BYTE(0)
+}
+
+.output : AT(0) {
+	LONG( ADDR(aligner) + SIZEOF(aligner) - 0x30000);
+	LONG( 0);
+	LONG( ABSOLUTE(amain));
+}
+
+}

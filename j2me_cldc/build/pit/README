@@ -1,0 +1,18 @@
+    To build the KVM on Win32 using the Makefile in this
+directory, you must have MKS "sh", "find" and "zip" commands
+in your path. Also in the PATH string the MKS "find" command
+must come before the "find" command built into Win32 (e.g., c:\winnt\system32\find.exe). So make sure your PATH variable
+contains something like:
+
+     ...c:\mks\mksnt;...c:\winnt\system32
+
+and *NOT* something like:
+
+     ...c:\winnt\system32;...c:\mks\mksnt
+
+The makefiles rely on specific features in the MKS find command
+that are not available in the Windows find command.
+Once MKS is in your path, simply type:
+
+     gnumake
+     

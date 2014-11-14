@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>OS Kindergarden</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0">
+  <tr>
+    <td bgcolor="#CCCC99"> 
+      <div align="right"><a href="index.html">Home Page</a></div>
+    </td>
+  </tr>
+</table>
+<h2>Usage Guide</h2>
+<p>Now start to use this simple os toolkit: you have two kind of processes, user 
+  mode and kernel mode. So we should have two sets of api, the one called from 
+  kernel mode and the one from user mode: the kernel api are called ki_XXX and 
+  invoked through the syscall mechanism by the user mode processes. </p>
+<p>When you program with this toolkit you have to define a cmain entry point: 
+  it is in kernel mode, and should initialize the kernel, setup some processes 
+  (user or kernel) and then let run the kernel. </p>
+<p>The first and simplest example is this one:</p>
+<p>&nbsp;</p>
+</body>
+</html>

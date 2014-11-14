@@ -1,0 +1,322 @@
+	.file	"pmmem1.cpp"
+gcc2_compiled.:
+___gnu_compiled_cplusplus:
+.globl _ir
+.data
+	.align 4
+_ir:
+	.long 0
+.text
+LC0:
+	.ascii "Free Memory Is %d\0"
+	.align 32
+LC1:
+	.ascii "Memory Block %8x%8x L %20d = %d\0"
+LC2:
+	.ascii "Block %x L %d T %d\0"
+LC3:
+	.ascii "Getting Memory Info\0"
+	.align 4
+.globl _cmain__Fv
+	.def	_cmain__Fv;	.scl	2;	.type	32;	.endef
+_cmain__Fv:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $236,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	addl $-4,%esp
+	pushl $LC3
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	addl $16,%esp
+	movl $131072,%ebx
+	cmpl $0,131072
+	jne L47
+	addl $-4,%esp
+	movl 131076,%eax
+	pushl %eax
+	pushl $LC0
+	leal -208(%ebp),%ebx
+	pushl %ebx
+	call _sprintf
+	addl $-4,%esp
+	pushl %ebx
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	addl $32,%esp
+	jmp L54
+	.align 4
+L47:
+	movl (%ebx),%eax
+	movl %eax,-212(%ebp)
+	addl $8,%ebx
+	xorl %esi,%esi
+	cmpl %eax,%esi
+	jge L54
+	leal -208(%ebp),%edi
+	.align 4
+L51:
+	addl $-8,%esp
+	movl 16(%ebx),%eax
+	pushl %eax
+	movl 8(%ebx),%eax
+	pushl %eax
+	movl (%ebx),%eax
+	pushl %eax
+	movl 4(%ebx),%eax
+	pushl %eax
+	pushl $LC1
+	pushl %edi
+	call _sprintf
+	addl $32,%esp
+	addl $-4,%esp
+	pushl %edi
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	addl $16,%esp
+	incl %esi
+	addl $20,%ebx
+	cmpl -212(%ebp),%esi
+	jl L51
+L54:
+	movl $131072,%ecx
+	cmpl $0,131072
+	jne L55
+	movl 131076,%eax
+	movl %eax,_total_phys_mem
+	jmp L57
+	.align 4
+L55:
+	movl (%ecx),%ebx
+	addl $8,%ecx
+	movl $0,_total_phys_mem
+	xorl %edx,%edx
+	cmpl %ebx,%edx
+	jge L57
+	.align 4
+L61:
+	movl 8(%ecx),%eax
+	addl %eax,_total_phys_mem
+	incl %edx
+	addl $20,%ecx
+	cmpl %ebx,%edx
+	jl L61
+L57:
+	xorl %ebx,%ebx
+	leal -208(%ebp),%esi
+	.align 4
+L73:
+	addl $-12,%esp
+	leal (%ebx,%ebx,2),%edx
+	sall $2,%edx
+	movl _blocks+8(%edx),%eax
+	pushl %eax
+	movl _blocks+4(%edx),%eax
+	pushl %eax
+	movl _blocks(%edx),%eax
+	pushl %eax
+	pushl $LC2
+	pushl %esi
+	call _sprintf
+	addl $32,%esp
+	addl $-4,%esp
+	pushl %esi
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	addl $16,%esp
+	incl %ebx
+	cmpl $19,%ebx
+	jbe L73
+	.align 4
+L77:
+	jmp L77
+	.align 4
+.globl _mem_add_block__FUiUiUi
+	.def	_mem_add_block__FUiUiUi;	.scl	2;	.type	32;	.endef
+_mem_add_block__FUiUiUi:
+	pushl %ebp
+	movl %esp,%ebp
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _testm__Fv
+	.def	_testm__Fv;	.scl	2;	.type	32;	.endef
+_testm__Fv:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $236,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	movl $131072,%ebx
+	cmpl $0,131072
+	jne L17
+	addl $-4,%esp
+	movl 4(%ebx),%eax
+	pushl %eax
+	pushl $LC0
+	leal -208(%ebp),%ebx
+	pushl %ebx
+	call _sprintf
+	addl $-4,%esp
+	pushl %ebx
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	jmp L18
+	.align 4
+L17:
+	movl (%ebx),%eax
+	movl %eax,-212(%ebp)
+	addl $8,%ebx
+	xorl %esi,%esi
+	cmpl %eax,%esi
+	jge L18
+	leal -208(%ebp),%edi
+	.align 4
+L22:
+	addl $-8,%esp
+	movl 16(%ebx),%eax
+	pushl %eax
+	movl 8(%ebx),%eax
+	pushl %eax
+	movl (%ebx),%eax
+	pushl %eax
+	movl 4(%ebx),%eax
+	pushl %eax
+	pushl $LC1
+	pushl %edi
+	call _sprintf
+	addl $32,%esp
+	addl $-4,%esp
+	pushl %edi
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	addl $16,%esp
+	incl %esi
+	addl $20,%ebx
+	cmpl -212(%ebp),%esi
+	jl L22
+L18:
+	leal -248(%ebp),%esp
+	popl %ebx
+	popl %esi
+	popl %edi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _initm__Fv
+	.def	_initm__Fv;	.scl	2;	.type	32;	.endef
+_initm__Fv:
+	pushl %ebp
+	movl %esp,%ebp
+	pushl %ebx
+	movl $131072,%ecx
+	cmpl $0,131072
+	jne L25
+	movl 4(%ecx),%eax
+	movl %eax,_total_phys_mem
+	jmp L27
+	.align 4
+L25:
+	movl (%ecx),%ebx
+	addl $8,%ecx
+	movl $0,_total_phys_mem
+	xorl %edx,%edx
+	cmpl %ebx,%edx
+	jge L27
+	.align 4
+L32:
+	movl 8(%ecx),%eax
+	addl %eax,_total_phys_mem
+	incl %edx
+	addl $20,%ecx
+	cmpl %ebx,%edx
+	jl L32
+L27:
+	popl %ebx
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _dumpm__Fv
+	.def	_dumpm__Fv;	.scl	2;	.type	32;	.endef
+_dumpm__Fv:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $220,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	xorl %ebx,%ebx
+	movl $_blocks,%edi
+	leal -208(%ebp),%esi
+	.align 4
+L44:
+	addl $-12,%esp
+	leal (%ebx,%ebx,2),%edx
+	sall $2,%edx
+	movl 8(%edx,%edi),%eax
+	pushl %eax
+	movl 4(%edx,%edi),%eax
+	pushl %eax
+	movl (%edx,%edi),%eax
+	pushl %eax
+	pushl $LC2
+	pushl %esi
+	call _sprintf
+	addl $32,%esp
+	addl $-4,%esp
+	pushl %esi
+	movl _ir,%eax
+	pushl %eax
+	incl _ir
+	pushl $0
+	call _videocpy
+	addl $16,%esp
+	incl %ebx
+	cmpl $19,%ebx
+	jbe L44
+	leal -232(%ebp),%esp
+	popl %ebx
+	popl %esi
+	popl %edi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+.globl _blocks
+.bss
+	.align 32
+_blocks:
+	.space 240
+.globl _total_phys_mem
+	.align 4
+_total_phys_mem:
+	.space 4
+	.def	_dumpm__Fv;	.scl	2;	.type	32;	.endef
+	.def	_initm__Fv;	.scl	2;	.type	32;	.endef
+	.def	_testm__Fv;	.scl	2;	.type	32;	.endef
+	.def	_mem_add_block__FUiUiUi;	.scl	2;	.type	32;	.endef
+	.def	_videocpy;	.scl	3;	.type	32;	.endef
+	.def	_sprintf;	.scl	3;	.type	32;	.endef

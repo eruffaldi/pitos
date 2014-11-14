@@ -1,0 +1,46 @@
+/*
+Linkaggio 32bit nudo e crudo:
+
+ld -T pmloadc.lnk *.o --oformat binary -o a.out 
+
+Questo formato risulta semplicissimo, in pratica sappiamo dove si trovano
+i dati, quanto e' lungo e dove si trova l'entry point.
+
+*/
+ENTRY(_amain)
+SECTIONS
+{
+
+.tmp : { LOADPOS = 0x10000+12; }
+
+/* Allochiamo in sequenza text, dati e bss */
+.text LOADPOS : AT(12){ 
+*(.text) 
+*(.data) 
+*(.bss)
+} 
+
+/*
+   Aggiungiamo del padding per allineare il file binario al 
+   settore del floppy, aggiungiamo in coda un singolo byte
+ */
+zyx : AT(SIZEOF(.text)+12) {         
+	. = ALIGN(512)-1;
+	BYTE(0)
+}
+
+/*
+   generiamo l'intestazione, ATTENZIONE, il terzo elemento e'
+   molto importante perche' viene usato per saltare alla routine
+   utente, mentre il primo viene usato per determinare la lunghezza
+   di tutto il file (multiplo di 512)
+ */
+.output : AT(0) {
+LONG( 12+ADDR(zyx)+SIZEOF(zyx)-LOADPOS);
+LONG( 0);
+LONG( ABSOLUTE(_amain));
+}
+
+
+
+}

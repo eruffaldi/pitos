@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>OS Kindergarden - Snapshots</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0">
+  <tr>
+    <td bgcolor="#CCCC99"> 
+      <div align="right"><a href="http://www.sssup.it/%7Epit/">Home Page</a></div>
+    </td>
+  </tr>
+</table>
+<h2>Some Snapshots</h2>
+<h3>Java K Virtual Machine</h3>
+One of the test projects is the integration of the KVM into my small kernel...
+<img src="jkvm_output.png"><br>
+The output from a simple Hello program:
+<pre>
+import java.io.*;
+
+public class test
+{
+	
+	public static void main(String[] args)
+	{
+                System.out.println("Hello World from JAVA!!!");
+	}
+}
+</pre>
+<br>
+<img src="jkvm_log.png"><br>
+The PitOS kernel logging, obtained pressing the ESC (virtual terminal switch)
+<p>
+<img src="jkvm_halted_log.png"><br>
+The same logging after the termination signal sent, now it's succesfully halted<br>
+<h3>One of the first run: Memory Range Analysis</h3>
+<img src="meminfo.png">
+</body>
+</html>

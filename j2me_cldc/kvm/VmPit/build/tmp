@@ -1,0 +1,1271 @@
+	.file	"nativeCore.c"
+gcc2_compiled.:
+___gnu_compiled_c:
+.text
+	.align 32
+LC0:
+	.ascii "java/lang/IllegalArgumentException\0"
+	.align 32
+LC1:
+	.ascii "java/lang/ClassNotFoundException\0"
+	.align 4
+.globl _Java_java_lang_Class_forName
+	.def	_Java_java_lang_Class_forName;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_forName:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $16,%esp
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	movl (%eax),%eax
+	testl %eax,%eax
+	jne L118
+	addl $-12,%esp
+	movl _NullPointerException,%eax
+	pushl %eax
+	call _raiseException
+	jmp L119
+	.align 4
+L118:
+	addl $-12,%esp
+	xorl %esi,%esi
+	pushl %eax
+	call _getStringContents
+	addl $-8,%esp
+	movl %eax,%ebx
+	pushl $47
+	pushl %ebx
+	call _strchr
+	addl $32,%esp
+	testl %eax,%eax
+	jne L120
+	addl $-4,%esp
+	pushl $47
+	pushl $46
+	pushl %ebx
+	call _replaceLetters
+	addl $-4,%esp
+	pushl $0
+	pushl $2
+	pushl %ebx
+	call _verifyName
+	addl $32,%esp
+	testl %eax,%eax
+	je L120
+	addl $-12,%esp
+	pushl %ebx
+	call _getClass
+	movl %eax,%esi
+	addl $16,%esp
+	testl %esi,%esi
+	je L126
+	movl _sp,%eax
+	movl %esi,(%eax)
+	testb $16,21(%esi)
+	jne L120
+	cmpw $5,50(%esi)
+	je L120
+	movl _CurrentThread,%eax
+	cmpl %eax,52(%esi)
+	je L120
+	addl $-12,%esp
+	pushl %esi
+	call _initializeClass
+	addl $16,%esp
+L120:
+	testl %esi,%esi
+	jne L119
+L126:
+	addl $-12,%esp
+	pushl $LC1
+	call _raiseException
+L119:
+	leal -24(%ebp),%esp
+	popl %ebx
+	popl %esi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 32
+LC2:
+	.ascii "java/lang/InstantiationException\0"
+	.align 32
+LC3:
+	.ascii "java/lang/IllegalAccessException\0"
+	.align 4
+.globl _Java_java_lang_Class_newInstance
+	.def	_Java_java_lang_Class_newInstance;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_newInstance:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $12,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	movl (%eax),%esi
+	movl _fp,%eax
+	movl (%eax),%eax
+	movl 24(%eax),%edx
+	movl 8(%esi),%eax
+	cmpl %eax,8(%edx)
+	sete %al
+	movzbl %al,%edi
+	movzwl 20(%esi),%eax
+	testb $22,%ah
+	je L128
+	addl $-12,%esp
+	pushl $LC2
+	call _raiseException
+	jmp L127
+	.align 4
+L128:
+	testl %edi,%edi
+	je L130
+	testb $2,%al
+	jne L129
+	jmp L131
+	.align 4
+L130:
+	testb $1,%al
+	je L129
+L131:
+	addl $-8,%esp
+	movl _initNameAndType,%eax
+	pushl %eax
+	pushl %esi
+	call _lookupMethod
+	movl %eax,%ebx
+	addl $16,%esp
+	testl %ebx,%ebx
+	je L129
+	cmpl %esi,24(%ebx)
+	jne L129
+	testl %edi,%edi
+	je L133
+	testb $2,20(%ebx)
+	jne L129
+	jmp L134
+	.align 4
+L133:
+	testb $1,20(%ebx)
+	je L129
+L134:
+	addl $-12,%esp
+	pushl %esi
+	call _instantiate
+	movl %eax,%edx
+	addl $16,%esp
+	testl %edx,%edx
+	je L127
+	movl _sp,%eax
+	addl $-12,%esp
+	movl %edx,(%eax)
+	movl _sp,%eax
+	leal 4(%eax),%ecx
+	movl %ecx,_sp
+	movl %edx,4(%eax)
+	pushl %ebx
+	call _pushFrame
+	jmp L127
+	.align 4
+L129:
+	addl $-12,%esp
+	pushl $LC3
+	call _raiseException
+L127:
+	leal -24(%ebp),%esp
+	popl %ebx
+	popl %esi
+	popl %edi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 32
+LC4:
+	.ascii "java/lang/IllegalThreadStateException\0"
+LC5:
+	.ascii "()V\0"
+LC6:
+	.ascii "run\0"
+LC7:
+	.ascii "java/lang/ArrayStoreException\0"
+	.align 32
+LC8:
+	.ascii "java/lang/ArrayIndexOutOfBoundsException\0"
+	.align 4
+.globl _Java_java_lang_System_arraycopy
+	.def	_Java_java_lang_System_arraycopy;	.scl	2;	.type	32;	.endef
+_Java_java_lang_System_arraycopy:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $60,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	movl (%eax),%eax
+	movl %eax,-4(%ebp)
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%ebx
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%eax
+	movl %eax,-8(%ebp)
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%esi
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%eax
+	movl %eax,-12(%ebp)
+	addl $-4,_sp
+	testl %eax,%eax
+	je L176
+	cmpl $0,-8(%ebp)
+	jne L175
+L176:
+	addl $-12,%esp
+	movl _NullPointerException,%eax
+	pushl %eax
+	call _raiseException
+	jmp L174
+	.align 4
+L175:
+	movl -12(%ebp),%eax
+	movl -8(%ebp),%edi
+	movl (%eax),%edx
+	movl (%edi),%ecx
+	movl %edx,-24(%ebp)
+	testb $16,21(%edx)
+	je L199
+	testb $16,21(%ecx)
+	je L199
+	movl 32(%edx),%eax
+	cmpl 32(%ecx),%eax
+	jne L199
+	cmpl $4,%eax
+	jne L177
+	movl 24(%ecx),%eax
+	cmpl %eax,24(%edx)
+	jne L199
+L177:
+	movl -4(%ebp),%edi
+	movl -4(%ebp),%eax
+	addl %ebx,%edi
+	addl %esi,%eax
+	movl %edi,-36(%ebp)
+	cmpl $0,-4(%ebp)
+	jl L180
+	testl %esi,%esi
+	jl L180
+	testl %ebx,%ebx
+	jl L180
+	cmpl $0,-4(%ebp)
+	jle L181
+	testl %eax,%eax
+	jl L180
+	testl %edi,%edi
+	jl L180
+L181:
+	movl -12(%ebp),%edi
+	cmpl 8(%edi),%eax
+	jg L180
+	movl -36(%ebp),%edi
+	movl -8(%ebp),%eax
+	cmpl 8(%eax),%edi
+	jle L179
+L180:
+	addl $-12,%esp
+	pushl $LC8
+	call _raiseException
+	jmp L174
+	.align 4
+L179:
+	movl -24(%ebp),%eax
+	cmpl $4,32(%eax)
+	jne L182
+	movl 28(%eax),%eax
+	movl -4(%ebp),%ecx
+	imull %eax,%ebx
+	imull %eax,%esi
+	movl -8(%ebp),%edx
+	imull %eax,%ecx
+	leal 12(%edx,%ebx),%edi
+	movl -12(%ebp),%eax
+	leal 12(%eax,%esi),%esi
+	cmpl %esi,%edi
+	jb L200
+	jmp L196
+	.align 4
+L182:
+	movl 24(%edx),%eax
+	addl $-8,%esp
+	movl 24(%ecx),%ecx
+	movl %ecx,-16(%ebp)
+	pushl %ecx
+	pushl %eax
+	call _isAssignableTo
+	addl $16,%esp
+	testl %eax,%eax
+	jne L187
+	movl $0,-20(%ebp)
+	sall $2,%ebx
+	leal 0(,%esi,4),%edi
+	jmp L188
+	.align 4
+L192:
+	movl -8(%ebp),%edx
+	addl $4,%edi
+	movl %esi,12(%ebx,%edx)
+	incl -20(%ebp)
+	addl $4,%ebx
+L188:
+	movl -4(%ebp),%eax
+	cmpl %eax,-20(%ebp)
+	jge L174
+	movl -12(%ebp),%edx
+	movl 12(%edi,%edx),%esi
+	testl %esi,%esi
+	je L192
+	addl $-8,%esp
+	movl -16(%ebp),%eax
+	pushl %eax
+	pushl %esi
+	call _isInstanceOf
+	addl $16,%esp
+	testl %eax,%eax
+	jne L192
+L199:
+	addl $-12,%esp
+	pushl $LC7
+	call _raiseException
+	jmp L174
+	.align 4
+L187:
+	movl -4(%ebp),%ecx
+	movl -8(%ebp),%edx
+	sall $2,%ecx
+	movl -12(%ebp),%eax
+	leal 12(%edx,%ebx,4),%edi
+	leal 12(%eax,%esi,4),%esi
+	cmpl %esi,%edi
+	jae L196
+L200:
+/APP
+	cld
+	rep
+	movsb
+/NO_APP
+	jmp L174
+	.align 4
+L196:
+	leal -1(%ecx),%eax
+	addl %eax,%esi
+	addl %eax,%edi
+/APP
+	std
+	rep
+	movsb
+	cld
+/NO_APP
+L174:
+	leal -72(%ebp),%esp
+	popl %ebx
+	popl %esi
+	popl %edi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+LC9:
+	.ascii "microedition.configuration\0"
+LC10:
+	.ascii "CLDC-1.0\0"
+LC11:
+	.ascii "microedition.platform\0"
+LC12:
+	.ascii "microedition.new.events\0"
+LC13:
+	.ascii "true\0"
+LC14:
+	.ascii "microedition.no.storage\0"
+LC15:
+	.ascii "microedition.no.network\0"
+LC16:
+	.ascii "microedition.encoding\0"
+LC17:
+	.ascii "ISO8859_1\0"
+	.align 4
+.globl _Java_java_lang_System_getProperty0
+	.def	_Java_java_lang_System_getProperty0;	.scl	2;	.type	32;	.endef
+_Java_java_lang_System_getProperty0:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $16,%esp
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	addl $-12,%esp
+	movl (%eax),%eax
+	pushl %eax
+	call _getStringContents
+	addl $-12,%esp
+	movl %eax,%ebx
+	pushl %ebx
+	call _getProperty
+	movl %eax,%esi
+	addl $32,%esp
+	testl %esi,%esi
+	jne L204
+	addl $-8,%esp
+	pushl $LC9
+	pushl %ebx
+	call _strcmp
+	addl $16,%esp
+	testl %eax,%eax
+	jne L205
+	movl $LC10,%esi
+	jmp L204
+	.align 4
+L205:
+	addl $-8,%esp
+	pushl $LC11
+	pushl %ebx
+	call _strcmp
+	addl $16,%esp
+	addl $-8,%esp
+	pushl $LC12
+	pushl %ebx
+	call _strcmp
+	addl $16,%esp
+	testl %eax,%eax
+	je L213
+	addl $-8,%esp
+	pushl $LC14
+	pushl %ebx
+	call _strcmp
+	addl $16,%esp
+	testl %eax,%eax
+	je L213
+	addl $-8,%esp
+	pushl $LC15
+	pushl %ebx
+	call _strcmp
+	addl $16,%esp
+	testl %eax,%eax
+	jne L209
+L213:
+	movl $LC13,%esi
+	jmp L204
+	.align 4
+L209:
+	addl $-8,%esp
+	pushl $LC16
+	pushl %ebx
+	call _strcmp
+	addl $16,%esp
+	testl %eax,%eax
+	jne L204
+	movl $LC17,%esi
+L204:
+	movl _sp,%ebx
+	testl %esi,%esi
+	je L211
+	addl $-8,%esp
+	addl $-12,%esp
+	pushl %esi
+	call _strlen
+	addl $16,%esp
+	pushl %eax
+	pushl %esi
+	call _instantiateString
+	movl %eax,(%ebx)
+	jmp L212
+	.align 4
+L211:
+	movl $0,(%ebx)
+L212:
+	leal -24(%ebp),%esp
+	popl %ebx
+	popl %esi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+LC18:
+	.ascii "Intern is not yet implemented\0"
+	.align 4
+.globl _Java_java_util_Calendar_init
+	.def	_Java_java_util_Calendar_init;	.scl	2;	.type	32;	.endef
+_Java_java_util_Calendar_init:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $28,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	movl $15,%ebx
+	movl %ebx,%ecx
+	movl (%eax),%eax
+	addl $-4,_sp
+	addl $12,%eax
+	addl $-4,_sp
+	movl %eax,-4(%ebp)
+	xorl %eax,%eax
+	movl -4(%ebp),%edi
+/APP
+	cld
+	rep ; stosl
+/NO_APP
+	call _Calendar_md
+	movl %eax,%esi
+	movl %ebx,%ecx
+	movl -4(%ebp),%edi
+/APP
+	cld
+	rep ; movsl
+/NO_APP
+	popl %ebx
+	popl %esi
+	popl %edi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Object_getClass
+	.def	_Java_java_lang_Object_getClass;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Object_getClass:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	movl %ebp,%esp
+	movl (%eax),%edx
+	movl (%edx),%edx
+	movl %edx,(%eax)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Object_hashCode
+	.def	_Java_java_lang_Object_hashCode;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Object_hashCode:
+	pushl %ebp
+	movl %esp,%ebp
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_System_identityHashCode
+	.def	_Java_java_lang_System_identityHashCode;	.scl	2;	.type	32;	.endef
+_Java_java_lang_System_identityHashCode:
+	pushl %ebp
+	movl %esp,%ebp
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Object_notify
+	.def	_Java_java_lang_Object_notify;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Object_notify:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	subl $8,%esp
+	addl $-8,%esp
+	movl (%eax),%eax
+	addl $-4,_sp
+	pushl $0
+	pushl %eax
+	call _monitorNotify
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Object_notifyAll
+	.def	_Java_java_lang_Object_notifyAll;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Object_notifyAll:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	subl $8,%esp
+	addl $-8,%esp
+	movl (%eax),%eax
+	addl $-4,_sp
+	pushl $1
+	pushl %eax
+	call _monitorNotify
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Object_wait
+	.def	_Java_java_lang_Object_wait;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Object_wait:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $36,%esp
+	pushl %ebx
+	movl _sp,%eax
+	leal -4(%eax),%edx
+	movl %edx,_sp
+	movl -4(%eax),%ecx
+	movl 0(%eax),%ebx
+	movl %ecx,-8(%ebp)
+	addl $-8,%eax
+	movl %ebx,-4(%ebp)
+	movl %eax,_sp
+	movl -4(%edx),%eax
+	addl $-4,_sp
+	cmpl $0,-4(%ebp)
+	jl L111
+	addl $-4,%esp
+	pushl %ebx
+	pushl %ecx
+	pushl %eax
+	call _monitorWait
+	jmp L113
+	.align 4
+L111:
+	addl $-12,%esp
+	pushl $LC0
+	call _raiseException
+L113:
+	movl -40(%ebp),%ebx
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Math_randomInt
+	.def	_Java_java_lang_Math_randomInt;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Math_randomInt:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $8,%esp
+	call _rand
+	movl %eax,%edx
+	movl %ebp,%esp
+	movl _sp,%eax
+	leal 4(%eax),%ecx
+	movl %ecx,_sp
+	movl %edx,4(%eax)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_isInterface
+	.def	_Java_java_lang_Class_isInterface;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_isInterface:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	movl %ebp,%esp
+	movl (%eax),%edx
+	movzwl 20(%edx),%edx
+	shrw $9,%dx
+	movl %edx,%ecx
+	andl $1,%ecx
+	movl %ecx,(%eax)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_isPrimitive
+	.def	_Java_java_lang_Class_isPrimitive;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_isPrimitive:
+	pushl %ebp
+	movl %esp,%ebp
+	movl _sp,%eax
+	movl $0,(%eax)
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_getName
+	.def	_Java_java_lang_Class_getName;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_getName:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $16,%esp
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	addl $-12,%esp
+	movl (%eax),%edx
+	movl _TemporaryRoots,%eax
+	movl (%eax),%esi
+	pushl %edx
+	call _getClassName
+	addl $-8,%esp
+	movl %eax,%ebx
+	pushl $47
+	pushl %ebx
+	call _strchr
+	addl $32,%esp
+	testl %eax,%eax
+	je L139
+	.align 4
+L140:
+	movb $46,(%eax)
+	addl $-8,%esp
+	pushl $47
+	incl %eax
+	pushl %eax
+	call _strchr
+	addl $16,%esp
+	testl %eax,%eax
+	jne L140
+L139:
+	addl $-8,%esp
+	addl $-12,%esp
+	pushl %ebx
+	call _strlen
+	pushl %eax
+	pushl %ebx
+	call _instantiateString
+	movl %eax,%edx
+	leal -24(%ebp),%esp
+	movl _sp,%eax
+	movl %edx,(%eax)
+	movl _TemporaryRoots,%eax
+	movl %esi,(%eax)
+	popl %ebx
+	popl %esi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_isInstance
+	.def	_Java_java_lang_Class_isInstance;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_isInstance:
+	pushl %ebp
+	xorl %ecx,%ecx
+	movl %esp,%ebp
+	subl $20,%esp
+	pushl %ebx
+	movl _sp,%eax
+	movl (%eax),%eax
+	addl $-4,_sp
+	movl _sp,%ebx
+	movl (%ebx),%edx
+	testl %eax,%eax
+	je L144
+	addl $-8,%esp
+	pushl %edx
+	pushl %eax
+	call _isInstanceOf
+	testl %eax,%eax
+	setne %al
+	movzbl %al,%ecx
+L144:
+	movl %ecx,(%ebx)
+	movl -24(%ebp),%ebx
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_isArray
+	.def	_Java_java_lang_Class_isArray;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_isArray:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	movl %ebp,%esp
+	movl (%eax),%edx
+	movzwl 20(%edx),%edx
+	shrw $12,%dx
+	movl %edx,%ecx
+	andl $1,%ecx
+	movl %ecx,(%eax)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_isAssignableFrom
+	.def	_Java_java_lang_Class_isAssignableFrom;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_isAssignableFrom:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	subl $8,%esp
+	movl (%eax),%edx
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%eax
+	testl %edx,%edx
+	jne L146
+	addl $-12,%esp
+	movl _NullPointerException,%eax
+	pushl %eax
+	call _raiseException
+	jmp L147
+	.align 4
+L146:
+	addl $-8,%esp
+	pushl %eax
+	pushl %edx
+	call _isAssignableTo
+	testl %eax,%eax
+	setne %al
+	movl _sp,%edx
+	movl %eax,%ecx
+	andl $1,%ecx
+	movl %ecx,(%edx)
+L147:
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Class_getResourceAsStream0
+	.def	_Java_java_lang_Class_getResourceAsStream0;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Class_getResourceAsStream0:
+	pushl %ebp
+	movl %esp,%ebp
+	movl _sp,%eax
+	movl $0,(%eax)
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_activeCount
+	.def	_Java_java_lang_Thread_activeCount;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_activeCount:
+	pushl %ebp
+	movl _sp,%edx
+	movl %esp,%ebp
+	leal 4(%edx),%eax
+	movl %ebp,%esp
+	movl %eax,_sp
+	movl _ActiveThreadCount,%eax
+	movl %eax,4(%edx)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_currentThread
+	.def	_Java_java_lang_Thread_currentThread;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_currentThread:
+	pushl %ebp
+	movl %esp,%ebp
+	movl _CurrentThread,%eax
+	subl $8,%esp
+	cmpl $0,8(%eax)
+	jne L151
+	addl $-12,%esp
+	pushl %eax
+	call _InitializeJavaThread
+L151:
+	movl _sp,%eax
+	movl %ebp,%esp
+	leal 4(%eax),%edx
+	movl %edx,_sp
+	movl _CurrentThread,%edx
+	movl 8(%edx),%edx
+	movl %edx,4(%eax)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_yield
+	.def	_Java_java_lang_Thread_yield;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_yield:
+	pushl %ebp
+	movl %esp,%ebp
+	movl $0,_Timeslice
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_sleep
+	.def	_Java_java_lang_Thread_sleep;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_sleep:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $36,%esp
+	pushl %ebx
+	movl _sp,%ecx
+	leal -4(%ecx),%eax
+	movl %eax,_sp
+	movl -4(%ecx),%eax
+	movl 0(%ecx),%edx
+	movl %eax,-8(%ebp)
+	addl $-8,%ecx
+	movl %edx,-4(%ebp)
+	movl %ecx,_sp
+	cmpl $0,-4(%ebp)
+	jl L154
+	movl _CurrentThread,%ebx
+	call _suspendThread
+	pushl $_resumeThread
+	movl -8(%ebp),%eax
+	movl -4(%ebp),%edx
+	pushl %edx
+	pushl %eax
+	pushl %ebx
+	call _registerAlarm
+	jmp L156
+	.align 4
+L154:
+	addl $-12,%esp
+	pushl $LC0
+	call _raiseException
+L156:
+	movl -40(%ebp),%ebx
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_start
+	.def	_Java_java_lang_Thread_start;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_start:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $12,%esp
+	pushl %edi
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	addl $-12,%esp
+	movl (%eax),%esi
+	movl _TemporaryRoots,%eax
+	addl $-4,_sp
+	movl (%eax),%ebx
+	pushl %esi
+	call _makeTemporaryRoot
+	addl $-12,%esp
+	pushl %esi
+	call _getVMthread
+	movl %eax,%edi
+	addl $32,%esp
+	movl _TemporaryRoots,%eax
+	movl %ebx,(%eax)
+	cmpl $0,56(%edi)
+	je L158
+	addl $-12,%esp
+	pushl $LC4
+	call _raiseException
+	jmp L157
+	.align 4
+L158:
+	movl 16(%esi),%ebx
+	testl %ebx,%ebx
+	jne L159
+	movl %esi,%ebx
+L159:
+	addl $-8,%esp
+	addl $-8,%esp
+	pushl $LC5
+	pushl $LC6
+	call _getNameAndTypeKey
+	pushl %eax
+	movl (%ebx),%eax
+	pushl %eax
+	call _lookupMethod
+	addl $32,%esp
+	addl $-4,%esp
+	pushl %ebx
+	pushl %eax
+	pushl %edi
+	call _initThreadBehavior
+	movl 16(%edi),%eax
+	addl $-12,%esp
+	movl %ebx,8(%eax)
+	pushl %edi
+	call _startThread
+	addl $32,%esp
+	addl $-12,%esp
+	pushl %edi
+	call _resumeThread
+L157:
+	leal -24(%ebp),%esp
+	popl %ebx
+	popl %esi
+	popl %edi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_isAlive
+	.def	_Java_java_lang_Thread_isAlive;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_isAlive:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	subl $8,%esp
+	addl $-12,%esp
+	movl (%eax),%eax
+	movl 12(%eax),%eax
+	pushl %eax
+	call _isActivated
+	movl %eax,%edx
+	movl %ebp,%esp
+	movl _sp,%eax
+	movl %edx,(%eax)
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_setPriority0
+	.def	_Java_java_lang_Thread_setPriority0;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_setPriority0:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $16,%esp
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	movl (%eax),%edx
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%esi
+	addl $-4,_sp
+	cmpl $10,%edx
+	jg L162
+	movl %edx,%eax
+	cmpl $1,%eax
+	jge L164
+	movl $1,%eax
+L164:
+	movl %eax,8(%esi)
+	jmp L163
+	.align 4
+L162:
+	movl $10,8(%esi)
+L163:
+	movl _TemporaryRoots,%eax
+	addl $-12,%esp
+	movl (%eax),%ebx
+	pushl %esi
+	call _makeTemporaryRoot
+	addl $-12,%esp
+	pushl %esi
+	call _getVMthread
+	movl %eax,%edx
+	leal -24(%ebp),%esp
+	movl _TemporaryRoots,%eax
+	movl %ebx,(%eax)
+	movl 8(%esi),%eax
+	leal (%eax,%eax,4),%eax
+	leal (%eax,%eax,4),%eax
+	sall $2,%eax
+	movl %eax,12(%edx)
+	popl %ebx
+	popl %esi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Thread_setPriority
+	.def	_Java_java_lang_Thread_setPriority;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Thread_setPriority:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $16,%esp
+	pushl %esi
+	pushl %ebx
+	movl _sp,%eax
+	movl (%eax),%edx
+	addl $-4,_sp
+	movl _sp,%eax
+	movl (%eax),%esi
+	addl $-4,_sp
+	cmpl $10,%edx
+	jg L166
+	movl %edx,%eax
+	cmpl $1,%eax
+	jge L167
+	movl $1,%eax
+L167:
+	movl %eax,8(%esi)
+	jmp L168
+	.align 4
+L166:
+	movl $10,8(%esi)
+L168:
+	movl _TemporaryRoots,%eax
+	addl $-12,%esp
+	movl (%eax),%ebx
+	pushl %esi
+	call _makeTemporaryRoot
+	addl $-12,%esp
+	pushl %esi
+	call _getVMthread
+	movl %eax,%edx
+	leal -24(%ebp),%esp
+	movl _TemporaryRoots,%eax
+	movl %ebx,(%eax)
+	movl 8(%esi),%eax
+	leal (%eax,%eax,4),%eax
+	leal (%eax,%eax,4),%eax
+	sall $2,%eax
+	movl %eax,12(%edx)
+	popl %ebx
+	popl %esi
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Runtime_exitInternal
+	.def	_Java_java_lang_Runtime_exitInternal;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Runtime_exitInternal:
+	pushl %ebp
+	movl %esp,%ebp
+	addl $-4,_sp
+	addl $-4,_sp
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Runtime_freeMemory
+	.def	_Java_java_lang_Runtime_freeMemory;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Runtime_freeMemory:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $8,%esp
+	call _memoryFree
+	movl %eax,%edx
+	movl %ebp,%esp
+	movl _sp,%eax
+	movl %edx,(%eax)
+	movl $0,4(%eax)
+	addl $4,_sp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Runtime_totalMemory
+	.def	_Java_java_lang_Runtime_totalMemory;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Runtime_totalMemory:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $8,%esp
+	call _getHeapSize
+	movl %eax,%edx
+	movl %ebp,%esp
+	movl _sp,%eax
+	movl %edx,(%eax)
+	movl $0,4(%eax)
+	addl $4,_sp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_Runtime_gc
+	.def	_Java_java_lang_Runtime_gc;	.scl	2;	.type	32;	.endef
+_Java_java_lang_Runtime_gc:
+	pushl %ebp
+	movl %esp,%ebp
+	addl $-4,_sp
+	subl $8,%esp
+	addl $-12,%esp
+	pushl $0
+	call _garbageCollect
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_System_currentTimeMillis
+	.def	_Java_java_lang_System_currentTimeMillis;	.scl	2;	.type	32;	.endef
+_Java_java_lang_System_currentTimeMillis:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $20,%esp
+	pushl %ebx
+	call _CurrentTime_md
+	movl %edx,%ecx
+	movl %eax,%edx
+	movl _sp,%eax
+	leal 4(%eax),%ebx
+	movl %ebx,_sp
+	movl %edx,4(%eax)
+	movl %ecx,8(%eax)
+	addl $4,_sp
+	popl %ebx
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_System_getProperty
+	.def	_Java_java_lang_System_getProperty;	.scl	2;	.type	32;	.endef
+_Java_java_lang_System_getProperty:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $8,%esp
+	call _Java_java_lang_System_getProperty0
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_java_lang_String_intern
+	.def	_Java_java_lang_String_intern;	.scl	2;	.type	32;	.endef
+_Java_java_lang_String_intern:
+	pushl %ebp
+	movl %esp,%ebp
+	subl $8,%esp
+	addl $-12,%esp
+	pushl $LC18
+	call _fatalError
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_com_sun_kjava_DebugIO_putchar
+	.def	_Java_com_sun_kjava_DebugIO_putchar;	.scl	2;	.type	32;	.endef
+_Java_com_sun_kjava_DebugIO_putchar:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	subl $8,%esp
+	addl $-12,%esp
+	movl (%eax),%eax
+	addl $-4,_sp
+	pushl %eax
+	call _putchar
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.align 4
+.globl _Java_com_sun_cldc_io_j2me_debug_PrivateOutputStream_putchar
+	.def	_Java_com_sun_cldc_io_j2me_debug_PrivateOutputStream_putchar;	.scl	2;	.type	32;	.endef
+_Java_com_sun_cldc_io_j2me_debug_PrivateOutputStream_putchar:
+	pushl %ebp
+	movl _sp,%eax
+	movl %esp,%ebp
+	subl $8,%esp
+	addl $-12,%esp
+	movl (%eax),%eax
+	addl $-4,_sp
+	pushl %eax
+	call _putchar
+	movl %ebp,%esp
+	popl %ebp
+	ret
+	.def	_Calendar_md;	.scl	2;	.type	32;	.endef
+	.def	_fatalError;	.scl	2;	.type	32;	.endef
+	.def	_putchar;	.scl	2;	.type	32;	.endef
+	.def	_strcmp;	.scl	2;	.type	32;	.endef
+	.def	_getProperty;	.scl	2;	.type	32;	.endef
+	.def	_CurrentTime_md;	.scl	2;	.type	32;	.endef
+	.def	_garbageCollect;	.scl	2;	.type	32;	.endef
+	.def	_getHeapSize;	.scl	2;	.type	32;	.endef
+	.def	_memoryFree;	.scl	2;	.type	32;	.endef
+	.def	_isActivated;	.scl	2;	.type	32;	.endef
+	.def	_startThread;	.scl	2;	.type	32;	.endef
+	.def	_initThreadBehavior;	.scl	2;	.type	32;	.endef
+	.def	_getNameAndTypeKey;	.scl	2;	.type	32;	.endef
+	.def	_getVMthread;	.scl	2;	.type	32;	.endef
+	.def	_makeTemporaryRoot;	.scl	2;	.type	32;	.endef
+	.def	_resumeThread;	.scl	2;	.type	32;	.endef
+	.def	_registerAlarm;	.scl	2;	.type	32;	.endef
+	.def	_suspendThread;	.scl	2;	.type	32;	.endef
+	.def	_InitializeJavaThread;	.scl	2;	.type	32;	.endef
+	.def	_isAssignableTo;	.scl	2;	.type	32;	.endef
+	.def	_isInstanceOf;	.scl	2;	.type	32;	.endef
+	.def	_strlen;	.scl	2;	.type	32;	.endef
+	.def	_instantiateString;	.scl	2;	.type	32;	.endef
+	.def	_getClassName;	.scl	2;	.type	32;	.endef
+	.def	_pushFrame;	.scl	2;	.type	32;	.endef
+	.def	_instantiate;	.scl	2;	.type	32;	.endef
+	.def	_lookupMethod;	.scl	2;	.type	32;	.endef
+	.def	_initializeClass;	.scl	2;	.type	32;	.endef
+	.def	_getClass;	.scl	2;	.type	32;	.endef
+	.def	_verifyName;	.scl	2;	.type	32;	.endef
+	.def	_replaceLetters;	.scl	2;	.type	32;	.endef
+	.def	_strchr;	.scl	2;	.type	32;	.endef
+	.def	_getStringContents;	.scl	2;	.type	32;	.endef
+	.def	_rand;	.scl	2;	.type	32;	.endef
+	.def	_raiseException;	.scl	2;	.type	32;	.endef
+	.def	_monitorWait;	.scl	2;	.type	32;	.endef
+	.def	_monitorNotify;	.scl	2;	.type	32;	.endef

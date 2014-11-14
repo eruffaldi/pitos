@@ -1,0 +1,2 @@
+../kvm/VmUnix/build/kvm -classpath ../api/classes:../samples/classes $*
+
